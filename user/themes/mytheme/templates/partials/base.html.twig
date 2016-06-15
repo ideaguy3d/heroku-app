@@ -48,6 +48,24 @@
 {# include the nav & header #}
 {% include 'partials/header.html.twig' %}
 
+<!-- Image Background Parallax, very top of the page -->
+<div id="section" class="image-parallax" style="background-image: url('{{ theme_url }}/images/stockton1.jpg')">
+    <div class="slide-content light">
+        <div class="align-center">
+
+            <!-- /Top Logo -->
+            <h1>Welcome to Stockton tour guide</h1>
+
+            <!-- Top Logo -->
+            <div class="top-logo">
+                <img src="{{ theme_url }}/images/logo.png" alt="logo">
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--/Image Background Parallax -->
+
 <div class="container">
     {% block content %}{% endblock %}
 </div>

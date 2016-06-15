@@ -24,10 +24,10 @@ class __TwigTemplate_6693893cc23623a1c378927835917240cf72e985a94d2bdedbe281c7aa9
         $this->parent->display($context, array_merge($this->blocks, $blocks));
     }
 
-    // line 3
+    // line 4
     public function block_content($context, array $blocks = array())
     {
-        // line 4
+        // line 5
         echo "    ";
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "content", array());
         echo "
@@ -46,10 +46,11 @@ class __TwigTemplate_6693893cc23623a1c378927835917240cf72e985a94d2bdedbe281c7aa9
 
     public function getDebugInfo()
     {
-        return array (  31 => 4,  28 => 3,  11 => 1,);
+        return array (  31 => 5,  28 => 4,  11 => 1,);
     }
 }
 /* {% extends 'partials/base.html.twig' %}*/
+/* */
 /* */
 /* {% block content %}*/
 /*     {{ page.content }}*/

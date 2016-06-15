@@ -2,14 +2,14 @@
 title: Home
 ---
 
-# Grav is Running!
-## You have installed **Grav** successfully
+# Welcome to Stockton, ca
+### You've made a **Good** choice to consider Stockton, ca for your next visit
 
-Congratulations! You have installed the **Base Grav Package** that provides a **simple page** and the default **antimatter** theme to get you started.
+Stockton offers all sorts of **fun** activities and **entertainment** for our visitors.
 
->>>>> If you want a more **full-featured** base install, you should check out [**Skeleton** packages available in the downloads](http://getgrav.org/downloads).
+>> If you want a more **interactive** tour of our city, you should check out our [**Tours** & **Guides** available in the downtown office](http://getgrav.org/downloads).
 
-### Find out all about Grav
+### Find out all about what Stockton, ca has to offer
 
 * Learn about **Grav** by checking out our dedicated [Learn Grav](http://learn.getgrav.org) site.
 * Download **plugins**, **themes**, as well as other Grav **skeleton** packages from the [Grav Downloads](http://getgrav.org/downloads) page.

@@ -38,11 +38,35 @@ class __TwigTemplate_082cf7d62faad0b9149b27130c6d670510cf080008fb3a3ade0c81bf5e7
         $this->loadTemplate("partials/header.html.twig", "partials/base.html.twig", 49)->display($context);
         // line 50
         echo "
+<!-- Image Background Parallax, very top of the page -->
+<div id=\"section\" class=\"image-parallax\" style=\"background-image: url('";
+        // line 52
+        echo (isset($context["theme_url"]) ? $context["theme_url"] : null);
+        echo "/images/stockton1.jpg')\">
+    <div class=\"slide-content light\">
+        <div class=\"align-center\">
+
+            <!-- /Top Logo -->
+            <h1>Welcome to Stockton tour guide</h1>
+
+            <!-- Top Logo -->
+            <div class=\"top-logo\">
+                <img src=\"";
+        // line 61
+        echo (isset($context["theme_url"]) ? $context["theme_url"] : null);
+        echo "/images/logo.png\" alt=\"logo\">
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--/Image Background Parallax -->
+
 <div class=\"container\">
     ";
-        // line 52
+        // line 70
         $this->displayBlock('content', $context, $blocks);
-        // line 53
+        // line 71
         echo "</div>
 
 <div class=\"footer\">
@@ -54,9 +78,9 @@ class __TwigTemplate_082cf7d62faad0b9149b27130c6d670510cf080008fb3a3ade0c81bf5e7
 </div>
 
 ";
-        // line 64
+        // line 82
         $this->displayBlock('bottom', $context, $blocks);
-        // line 65
+        // line 83
         echo "
 </body>
 
@@ -178,12 +202,12 @@ class __TwigTemplate_082cf7d62faad0b9149b27130c6d670510cf080008fb3a3ade0c81bf5e7
         ";
     }
 
-    // line 52
+    // line 70
     public function block_content($context, array $blocks = array())
     {
     }
 
-    // line 64
+    // line 82
     public function block_bottom($context, array $blocks = array())
     {
     }
@@ -200,7 +224,7 @@ class __TwigTemplate_082cf7d62faad0b9149b27130c6d670510cf080008fb3a3ade0c81bf5e7
 
     public function getDebugInfo()
     {
-        return array (  187 => 64,  182 => 52,  176 => 40,  173 => 39,  170 => 38,  167 => 37,  164 => 36,  162 => 35,  159 => 34,  156 => 33,  153 => 32,  150 => 31,  143 => 28,  140 => 27,  138 => 26,  135 => 25,  133 => 24,  130 => 23,  126 => 42,  124 => 31,  121 => 30,  119 => 23,  109 => 21,  104 => 19,  101 => 18,  95 => 16,  93 => 15,  90 => 14,  84 => 12,  78 => 10,  76 => 9,  70 => 5,  67 => 4,  60 => 65,  58 => 64,  46 => 53,  44 => 52,  40 => 50,  38 => 49,  31 => 43,  29 => 4,  24 => 1,);
+        return array (  211 => 82,  206 => 70,  200 => 40,  197 => 39,  194 => 38,  191 => 37,  188 => 36,  186 => 35,  183 => 34,  180 => 33,  177 => 32,  174 => 31,  167 => 28,  164 => 27,  162 => 26,  159 => 25,  157 => 24,  154 => 23,  150 => 42,  148 => 31,  145 => 30,  143 => 23,  133 => 21,  128 => 19,  125 => 18,  119 => 16,  117 => 15,  114 => 14,  108 => 12,  102 => 10,  100 => 9,  94 => 5,  91 => 4,  84 => 83,  82 => 82,  70 => 71,  68 => 70,  56 => 61,  44 => 52,  40 => 50,  38 => 49,  31 => 43,  29 => 4,  24 => 1,);
     }
 }
 /* <html lang="en">*/
@@ -252,6 +276,24 @@ class __TwigTemplate_082cf7d62faad0b9149b27130c6d670510cf080008fb3a3ade0c81bf5e7
 /* */
 /* {# include the nav & header #}*/
 /* {% include 'partials/header.html.twig' %}*/
+/* */
+/* <!-- Image Background Parallax, very top of the page -->*/
+/* <div id="section" class="image-parallax" style="background-image: url('{{ theme_url }}/images/stockton1.jpg')">*/
+/*     <div class="slide-content light">*/
+/*         <div class="align-center">*/
+/* */
+/*             <!-- /Top Logo -->*/
+/*             <h1>Welcome to Stockton tour guide</h1>*/
+/* */
+/*             <!-- Top Logo -->*/
+/*             <div class="top-logo">*/
+/*                 <img src="{{ theme_url }}/images/logo.png" alt="logo">*/
+/*             </div>*/
+/* */
+/*         </div>*/
+/*     </div>*/
+/* </div>*/
+/* <!--/Image Background Parallax -->*/
 /* */
 /* <div class="container">*/
 /*     {% block content %}{% endblock %}*/

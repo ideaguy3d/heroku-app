@@ -25,7 +25,7 @@ class __TwigTemplate_850adbd0e74a66d7505f9674f240a49410f399a403d72d29ff928cd7464
                 <span class=\"icon-bar\"></span>
                 <span class=\"icon-bar\"></span>
             </button>
-            <a class=\"navbar-brand\" href=\"#\">Grav</a>
+            <a class=\"navbar-brand\" href=\"#\">Julius</a>
         </div>
         <div class=\"navbar-collapse collapse\">
             <ul class=\"nav navbar-nav navbar-right\">
@@ -88,7 +88,7 @@ class __TwigTemplate_850adbd0e74a66d7505f9674f240a49410f399a403d72d29ff928cd7464
 /*                 <span class="icon-bar"></span>*/
 /*                 <span class="icon-bar"></span>*/
 /*             </button>*/
-/*             <a class="navbar-brand" href="#">Grav</a>*/
+/*             <a class="navbar-brand" href="#">Julius</a>*/
 /*         </div>*/
 /*         <div class="navbar-collapse collapse">*/
 /*             <ul class="nav navbar-nav navbar-right">*/

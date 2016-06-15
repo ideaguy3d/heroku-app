@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1466015832,
-    'checksum' => '8935f97f85092a085f6770bf2339e686',
+    'timestamp' => 1466029930,
+    'checksum' => '92e35a48b0b81116c63d90a0d041e4a1',
     'files' => [
         'user/config' => [
             'security' => [
@@ -11,7 +11,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1466014990
+                'modified' => 1466029879
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
@@ -303,7 +303,7 @@ return [
             ]
         ],
         'site' => [
-            'title' => 'Grav',
+            'title' => 'Julius',
             'author' => [
                 'name' => 'Julius Alvarado',
                 'email' => 'javascript.uiux@gmail.com'
