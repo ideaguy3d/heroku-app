@@ -46,34 +46,17 @@
 <body>
 
 {# include the nav & header #}
-{% include 'partials/header.html.twig' %}
+{% include 'partials/iheader.html.twig' %}
 
-<!-- Image Background Parallax, very top of the page -->
-<div id="section" class="image-parallax" style="background-image: url('{{ theme_url }}/images/stockton1.jpg')">
-    <div class="slide-content light">
-        <div class="align-center">
 
-            <!-- /Top Logo -->
-            <h1>Welcome to Stockton tour guide</h1>
-
-            <!-- Top Logo -->
-            <div class="top-logo">
-                <img src="{{ theme_url }}/images/logo.png" alt="logo">
-            </div>
-
-        </div>
-    </div>
-</div>
-<!--/Image Background Parallax -->
-
-<div class="container">
+<div id="bar1" class="container">
     {% block content %}{% endblock %}
 </div>
 
 <div class="footer">
     <div class="container">
-        <p class="text-muted">Built by <a href="https://juliusalvarado.info">Julius Alvarado</a>
-             w/<a href="http://getgrav.org">Grav</a>
+        <p class="text-muted">Built by <a href="https://juliusalvarado.info" target="_blank">Julius Alvarado</a>
+             w/<a href="http://getgrav.org" target="_blank">Grav</a>
         </p>
     </div>
 </div>

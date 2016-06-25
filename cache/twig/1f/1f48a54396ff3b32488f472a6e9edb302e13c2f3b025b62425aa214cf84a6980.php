@@ -8,7 +8,7 @@ class __TwigTemplate_235c64058da0b83fcc77f3ab1c63bf8aeec41e8c68fe63792714f71a825
         parent::__construct($env);
 
         // line 1
-        $this->parent = $this->loadTemplate("partials/base.html.twig", "about.html.twig", 1);
+        $this->parent = $this->loadTemplate("partials/ibase.html.twig", "about.html.twig", 1);
         $this->blocks = array(
             'content' => array($this, 'block_content'),
         );
@@ -16,7 +16,7 @@ class __TwigTemplate_235c64058da0b83fcc77f3ab1c63bf8aeec41e8c68fe63792714f71a825
 
     protected function doGetParent(array $context)
     {
-        return "partials/base.html.twig";
+        return "partials/ibase.html.twig";
     }
 
     protected function doDisplay(array $context, array $blocks = array())
@@ -49,7 +49,7 @@ class __TwigTemplate_235c64058da0b83fcc77f3ab1c63bf8aeec41e8c68fe63792714f71a825
         return array (  31 => 4,  28 => 3,  11 => 1,);
     }
 }
-/* {% extends 'partials/base.html.twig' %}*/
+/* {% extends 'partials/ibase.html.twig' %}*/
 /* */
 /* {% block content %}*/
 /*     {{ page.content }}*/

@@ -16,7 +16,7 @@ class __TwigTemplate_850adbd0e74a66d7505f9674f240a49410f399a403d72d29ff928cd7464
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        echo "<nav class=\"navbar navbar-default navbar-inverse navbar-static-top\" role=\"navigation\">
+        echo "<nav class=\"navbar navbar-default navbar-static-top\" role=\"navigation\">
     <div class=\"container\">
         <div class=\"navbar-header\">
             <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\">
@@ -79,7 +79,7 @@ class __TwigTemplate_850adbd0e74a66d7505f9674f240a49410f399a403d72d29ff928cd7464
         return array (  61 => 21,  55 => 20,  45 => 18,  42 => 17,  39 => 16,  34 => 15,  19 => 1,);
     }
 }
-/* <nav class="navbar navbar-default navbar-inverse navbar-static-top" role="navigation">*/
+/* <nav class="navbar navbar-default navbar-static-top" role="navigation">*/
 /*     <div class="container">*/
 /*         <div class="navbar-header">*/
 /*             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">*/
