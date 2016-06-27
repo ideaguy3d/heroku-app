@@ -4,7 +4,7 @@ showcase_image: landing-image.png
 buttons:
     - text: Buyer
       url: '#screenshots'
-      class: button trial animated shake
+      class: button learn-more smoothscroll
     - text:  Seller
       url: '#subscribe'
       class: button learn-more smoothscroll
