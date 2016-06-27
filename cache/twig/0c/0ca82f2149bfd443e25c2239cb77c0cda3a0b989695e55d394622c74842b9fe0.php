@@ -24,7 +24,10 @@ class __TwigTemplate_71cb255b8e0948ceb64d955c7e7e545850145fbae7617579a2ad0421376
         // line 5
         echo (isset($context["base_url_absolute"]) ? $context["base_url_absolute"] : null);
         echo "\">
-                    Reno Real Estate Team
+                    <img src=\"";
+        // line 6
+        echo (isset($context["theme_url"]) ? $context["theme_url"] : null);
+        echo "/images/footer-logo.png\" alt=\"logo\">
                 </a>
             </div>
             <p> ";
@@ -129,7 +132,7 @@ class __TwigTemplate_71cb255b8e0948ceb64d955c7e7e545850145fbae7617579a2ad0421376
 
     public function getDebugInfo()
     {
-        return array (  109 => 36,  98 => 34,  94 => 33,  89 => 31,  84 => 28,  73 => 26,  69 => 25,  64 => 23,  59 => 20,  50 => 18,  46 => 17,  41 => 15,  32 => 9,  25 => 5,  19 => 1,);
+        return array (  112 => 36,  101 => 34,  97 => 33,  92 => 31,  87 => 28,  76 => 26,  72 => 25,  67 => 23,  62 => 20,  53 => 18,  49 => 17,  44 => 15,  35 => 9,  29 => 6,  25 => 5,  19 => 1,);
     }
 }
 /* <footer>*/
@@ -137,7 +140,7 @@ class __TwigTemplate_71cb255b8e0948ceb64d955c7e7e545850145fbae7617579a2ad0421376
 /*         <div class="six columns info">*/
 /*             <div class="footer-logo">*/
 /*                 <a href="{{ base_url_absolute }}">*/
-/*                     Reno Real Estate Team*/
+/*                     <img src="{{ theme_url }}/images/footer-logo.png" alt="logo">*/
 /*                 </a>*/
 /*             </div>*/
 /*             <p> {{ site.footer.text }} </p>*/
