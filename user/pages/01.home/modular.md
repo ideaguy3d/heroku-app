@@ -1,7 +1,7 @@
 ---
 title: Reno Real Estate Team
 menu: Home
-onpage_menu: true
+onpage_menu: false
 body_class: index
 header_class: alt
 

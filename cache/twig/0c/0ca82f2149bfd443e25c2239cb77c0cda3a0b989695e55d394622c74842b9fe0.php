@@ -24,33 +24,29 @@ class __TwigTemplate_71cb255b8e0948ceb64d955c7e7e545850145fbae7617579a2ad0421376
         // line 5
         echo (isset($context["base_url_absolute"]) ? $context["base_url_absolute"] : null);
         echo "\">
-                    <img src=\"";
-        // line 6
-        echo (isset($context["theme_url"]) ? $context["theme_url"] : null);
-        echo "/images/footer-logo.png\" alt=\"\" />
+                    Reno Real Estate Team
                 </a>
             </div>
-            <p>
-                ";
-        // line 10
+            <p> ";
+        // line 9
         echo $this->getAttribute($this->getAttribute((isset($context["site"]) ? $context["site"] : null), "footer", array()), "text", array());
-        echo "
-            </p>
+        echo " </p>
         </div>
+
         <div class=\"six columns right-cols\">
             <div class=\"row\">
                 <div class=\"columns\">
                     <h3 class=\"address\">";
-        // line 16
+        // line 15
         echo $this->getAttribute($this->getAttribute($this->getAttribute((isset($context["site"]) ? $context["site"] : null), "footer", array()), "address", array()), "title", array());
         echo "</h3>
                     <p>
                         ";
-        // line 18
+        // line 17
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["site"]) ? $context["site"] : null), "footer", array()), "address", array()), "lines", array()));
         foreach ($context['_seq'] as $context["_key"] => $context["item"]) {
-            // line 19
+            // line 18
             echo "                           ";
             echo $this->getAttribute($context["item"], "line", array());
             echo " <br>
@@ -59,21 +55,21 @@ class __TwigTemplate_71cb255b8e0948ceb64d955c7e7e545850145fbae7617579a2ad0421376
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['item'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 21
+        // line 20
         echo "                    </p>
                 </div>
                 <div class=\"columns\">
                     <h3 class=\"social\">";
-        // line 24
+        // line 23
         echo $this->getAttribute($this->getAttribute((isset($context["site"]) ? $context["site"] : null), "footer", array()), "social_title", array());
         echo "</h3>
                     <ul>
                         ";
-        // line 26
+        // line 25
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute((isset($context["site"]) ? $context["site"] : null), "social", array()));
         foreach ($context['_seq'] as $context["_key"] => $context["item"]) {
-            // line 27
+            // line 26
             echo "                            <li><a href=\"";
             echo $this->getAttribute($context["item"], "url", array());
             echo "\">";
@@ -84,21 +80,21 @@ class __TwigTemplate_71cb255b8e0948ceb64d955c7e7e545850145fbae7617579a2ad0421376
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['item'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 29
+        // line 28
         echo "                    </ul>
                 </div>
                 <div class=\"columns last\">
                     <h3 class=\"contact\">";
-        // line 32
+        // line 31
         echo $this->getAttribute($this->getAttribute($this->getAttribute((isset($context["site"]) ? $context["site"] : null), "footer", array()), "contact", array()), "title", array());
         echo "</h3>
                     <ul>
                         ";
-        // line 34
+        // line 33
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["site"]) ? $context["site"] : null), "footer", array()), "contact", array()), "lines", array()));
         foreach ($context['_seq'] as $context["_key"] => $context["item"]) {
-            // line 35
+            // line 34
             echo "                            <li><a href=\"";
             echo $this->getAttribute($context["item"], "url", array());
             echo "\">";
@@ -109,12 +105,11 @@ class __TwigTemplate_71cb255b8e0948ceb64d955c7e7e545850145fbae7617579a2ad0421376
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['item'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 37
+        // line 36
         echo "                    </ul>
                 </div>
             </div>
         </div>
-        <p class=\"copyright\">&copy; 2014 Woo | Design by <a title=\"Styleshout\" href=\"http://www.styleshout.com/\">Styleshout</a> | Converted to GRAV by <a title=\"Grav\" href=\"http://www.getgrav.org/\">Grav Team</a></p>
         <div id=\"go-top\">
             <a class=\"smoothscroll\" title=\"Back to Top\" href=\"#hero\"><i class=\"icon-up-open\"></i></a>
         </div>
@@ -134,7 +129,7 @@ class __TwigTemplate_71cb255b8e0948ceb64d955c7e7e545850145fbae7617579a2ad0421376
 
     public function getDebugInfo()
     {
-        return array (  113 => 37,  102 => 35,  98 => 34,  93 => 32,  88 => 29,  77 => 27,  73 => 26,  68 => 24,  63 => 21,  54 => 19,  50 => 18,  45 => 16,  36 => 10,  29 => 6,  25 => 5,  19 => 1,);
+        return array (  109 => 36,  98 => 34,  94 => 33,  89 => 31,  84 => 28,  73 => 26,  69 => 25,  64 => 23,  59 => 20,  50 => 18,  46 => 17,  41 => 15,  32 => 9,  25 => 5,  19 => 1,);
     }
 }
 /* <footer>*/
@@ -142,13 +137,12 @@ class __TwigTemplate_71cb255b8e0948ceb64d955c7e7e545850145fbae7617579a2ad0421376
 /*         <div class="six columns info">*/
 /*             <div class="footer-logo">*/
 /*                 <a href="{{ base_url_absolute }}">*/
-/*                     <img src="{{ theme_url }}/images/footer-logo.png" alt="" />*/
+/*                     Reno Real Estate Team*/
 /*                 </a>*/
 /*             </div>*/
-/*             <p>*/
-/*                 {{ site.footer.text }}*/
-/*             </p>*/
+/*             <p> {{ site.footer.text }} </p>*/
 /*         </div>*/
+/* */
 /*         <div class="six columns right-cols">*/
 /*             <div class="row">*/
 /*                 <div class="columns">*/
@@ -177,7 +171,6 @@ class __TwigTemplate_71cb255b8e0948ceb64d955c7e7e545850145fbae7617579a2ad0421376
 /*                 </div>*/
 /*             </div>*/
 /*         </div>*/
-/*         <p class="copyright">&copy; 2014 Woo | Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a> | Converted to GRAV by <a title="Grav" href="http://www.getgrav.org/">Grav Team</a></p>*/
 /*         <div id="go-top">*/
 /*             <a class="smoothscroll" title="Back to Top" href="#hero"><i class="icon-up-open"></i></a>*/
 /*         </div>*/

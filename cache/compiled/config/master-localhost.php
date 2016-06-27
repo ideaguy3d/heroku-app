@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1466992758,
-    'checksum' => '575b4676d197e76b8438671d86514d46',
+    'timestamp' => 1467010334,
+    'checksum' => 'bc3cd07c9500c724a4aee183e28420e3',
     'files' => [
         'user/config' => [
             'plugins/simple_form' => [
@@ -15,7 +15,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1466992682
+                'modified' => 1467010334
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
@@ -353,28 +353,6 @@ return [
                 2 => [
                     'url' => 'https://plus.google.com/u/0/112344297862530715288/posts/p/pub',
                     'icon' => 'google-plus'
-                ]
-            ],
-            'menu' => [
-                0 => [
-                    'text' => 'Features',
-                    'link' => '#features'
-                ],
-                1 => [
-                    'text' => 'Pricing',
-                    'link' => '#pricing'
-                ],
-                2 => [
-                    'text' => 'Screenshots',
-                    'link' => '#screenshots'
-                ],
-                3 => [
-                    'text' => 'Testimonials',
-                    'link' => '#testimonials'
-                ],
-                4 => [
-                    'text' => 'Subscribe',
-                    'link' => '#subscribe'
                 ]
             ],
             'footer' => [

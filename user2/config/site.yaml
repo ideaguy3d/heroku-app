@@ -5,3 +5,11 @@ author:
 metadata:
     description: 'Built by Julius Alvarado w/ The Grav CMS'
 
+
+#One page menu scrolling
+menu:
+  - text: Features
+    link: "#features"
+  - text: Contact Me
+    link: "#contact"
+

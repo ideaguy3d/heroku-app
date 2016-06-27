@@ -26,8 +26,10 @@
 /* a. General and Common Styles
 /* ------------------------------------------------------------------ */
 
+@import url(template.css);
+
 body {
-    background: #181d21;
+    background: whitesmoke;
 }
 
 .section-head {
@@ -71,7 +73,7 @@ header {
 header .logo {
     margin-left: 36px;
     margin-right: 20px;
-    margin-top: 13px;
+    margin-top: 3px;
     float: left;
     width: auto;
     z-index: 991;
@@ -105,10 +107,6 @@ header .header-social {
 header .header-social li {
     display: inline-block;
     margin-right: 20px;
-}
-
-header .header-social li a {
-    color: #fff;
 }
 
 header .header-social li a:hover {
@@ -172,7 +170,8 @@ ul#nav li a {
 }
 
 ul#nav li a:hover {
-    color: #fff;
+    background-color: #696969;
+    color: #FFFFFF;
 }
 
 ul#nav li a:active {

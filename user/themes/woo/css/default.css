@@ -831,6 +831,14 @@ properly.
 	text-align: center !important;
 }
 
+.bg-info {
+    background-color: #b3d4fc;
+}
+
+.text-danger {
+    color: indianred;
+}
+
 
 
 

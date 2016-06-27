@@ -17,20 +17,7 @@ social:
   -  url: "https://twitter.com/ideaguy3d"
      icon: twitter
   -  url: "https://plus.google.com/u/0/112344297862530715288/posts/p/pub"
-     icon: google-plus  
-
-# Main Menu
-menu:
-  - text: Features
-    link: "#features"
-  - text: Pricing
-    link: "#pricing"
-  - text: Screenshots
-    link: "#screenshots"
-  - text: Testimonials
-    link: "#testimonials"
-  - text: Subscribe
-    link: "#subscribe"    
+     icon: google-plus
 
 footer: 
   text: "Real Estate Template"
