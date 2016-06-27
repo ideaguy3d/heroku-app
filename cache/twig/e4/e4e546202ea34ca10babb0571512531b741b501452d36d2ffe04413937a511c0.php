@@ -46,6 +46,8 @@ class __TwigTemplate_c8a5cdce5d670ac8414ce9ebf9e25a663a9081d1257c4740ed6e14cd268
         // line 54
         echo "</div>
 
+<hr>
+
 <div class=\"footer\">
     <div class=\"container\">
         <p class=\"text-muted\">Built by <a href=\"https://juliusalvarado.info\" target=\"_blank\">Julius Alvarado</a>
@@ -55,9 +57,9 @@ class __TwigTemplate_c8a5cdce5d670ac8414ce9ebf9e25a663a9081d1257c4740ed6e14cd268
 </div>
 
 ";
-        // line 65
+        // line 67
         $this->displayBlock('bottom', $context, $blocks);
-        // line 66
+        // line 68
         echo "
 </body>
 
@@ -184,7 +186,7 @@ class __TwigTemplate_c8a5cdce5d670ac8414ce9ebf9e25a663a9081d1257c4740ed6e14cd268
     {
     }
 
-    // line 65
+    // line 67
     public function block_bottom($context, array $blocks = array())
     {
     }
@@ -201,7 +203,7 @@ class __TwigTemplate_c8a5cdce5d670ac8414ce9ebf9e25a663a9081d1257c4740ed6e14cd268
 
     public function getDebugInfo()
     {
-        return array (  188 => 65,  183 => 53,  177 => 40,  174 => 39,  171 => 38,  168 => 37,  165 => 36,  163 => 35,  160 => 34,  157 => 33,  154 => 32,  151 => 31,  144 => 28,  141 => 27,  139 => 26,  136 => 25,  134 => 24,  131 => 23,  127 => 42,  125 => 31,  122 => 30,  120 => 23,  110 => 21,  105 => 19,  102 => 18,  96 => 16,  94 => 15,  91 => 14,  85 => 12,  79 => 10,  77 => 9,  71 => 5,  68 => 4,  61 => 66,  59 => 65,  47 => 54,  45 => 53,  40 => 50,  38 => 49,  31 => 43,  29 => 4,  24 => 1,);
+        return array (  190 => 67,  185 => 53,  179 => 40,  176 => 39,  173 => 38,  170 => 37,  167 => 36,  165 => 35,  162 => 34,  159 => 33,  156 => 32,  153 => 31,  146 => 28,  143 => 27,  141 => 26,  138 => 25,  136 => 24,  133 => 23,  129 => 42,  127 => 31,  124 => 30,  122 => 23,  112 => 21,  107 => 19,  104 => 18,  98 => 16,  96 => 15,  93 => 14,  87 => 12,  81 => 10,  79 => 9,  73 => 5,  70 => 4,  63 => 68,  61 => 67,  47 => 54,  45 => 53,  40 => 50,  38 => 49,  31 => 43,  29 => 4,  24 => 1,);
     }
 }
 /* <html lang="en">*/
@@ -258,6 +260,8 @@ class __TwigTemplate_c8a5cdce5d670ac8414ce9ebf9e25a663a9081d1257c4740ed6e14cd268
 /* <div id="bar1" class="container">*/
 /*     {% block content %}{% endblock %}*/
 /* </div>*/
+/* */
+/* <hr>*/
 /* */
 /* <div class="footer">*/
 /*     <div class="container">*/

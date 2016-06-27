@@ -46,15 +46,13 @@ class __TwigTemplate_e5431b9ac703f710d37c07fbd866e00f1b81ce8670a5d2a186fd7820cf2
     <div class=\"slide-content light\">
         <div class=\"align-center\">
 
-
-            <h1>welcome to Stockton tour guide</h1>
-
+            <h1>welcome to Real Estate Interactive</h1>
 
             <div class=\"top-logo\">
                 <img src=\"";
-        // line 61
+        // line 59
         echo (isset($context["theme_url"]) ? $context["theme_url"] : null);
-        echo "/images/logo.png\" alt=\"logo\">
+        echo "/images/logo2.png\" alt=\"logo\">
             </div>
 
         </div>
@@ -64,10 +62,12 @@ class __TwigTemplate_e5431b9ac703f710d37c07fbd866e00f1b81ce8670a5d2a186fd7820cf2
 
 <div id=\"bar1\" class=\"container\">
     ";
-        // line 70
+        // line 68
         $this->displayBlock('content', $context, $blocks);
-        // line 71
+        // line 69
         echo "</div>
+
+<hr>
 
 <div class=\"footer\">
     <div class=\"container\">
@@ -202,7 +202,7 @@ class __TwigTemplate_e5431b9ac703f710d37c07fbd866e00f1b81ce8670a5d2a186fd7820cf2
         ";
     }
 
-    // line 70
+    // line 68
     public function block_content($context, array $blocks = array())
     {
     }
@@ -224,7 +224,7 @@ class __TwigTemplate_e5431b9ac703f710d37c07fbd866e00f1b81ce8670a5d2a186fd7820cf2
 
     public function getDebugInfo()
     {
-        return array (  211 => 82,  206 => 70,  200 => 40,  197 => 39,  194 => 38,  191 => 37,  188 => 36,  186 => 35,  183 => 34,  180 => 33,  177 => 32,  174 => 31,  167 => 28,  164 => 27,  162 => 26,  159 => 25,  157 => 24,  154 => 23,  150 => 42,  148 => 31,  145 => 30,  143 => 23,  133 => 21,  128 => 19,  125 => 18,  119 => 16,  117 => 15,  114 => 14,  108 => 12,  102 => 10,  100 => 9,  94 => 5,  91 => 4,  84 => 83,  82 => 82,  70 => 71,  68 => 70,  56 => 61,  44 => 52,  40 => 50,  38 => 49,  31 => 43,  29 => 4,  24 => 1,);
+        return array (  211 => 82,  206 => 68,  200 => 40,  197 => 39,  194 => 38,  191 => 37,  188 => 36,  186 => 35,  183 => 34,  180 => 33,  177 => 32,  174 => 31,  167 => 28,  164 => 27,  162 => 26,  159 => 25,  157 => 24,  154 => 23,  150 => 42,  148 => 31,  145 => 30,  143 => 23,  133 => 21,  128 => 19,  125 => 18,  119 => 16,  117 => 15,  114 => 14,  108 => 12,  102 => 10,  100 => 9,  94 => 5,  91 => 4,  84 => 83,  82 => 82,  68 => 69,  66 => 68,  54 => 59,  44 => 52,  40 => 50,  38 => 49,  31 => 43,  29 => 4,  24 => 1,);
     }
 }
 /* <html lang="en">*/
@@ -282,12 +282,10 @@ class __TwigTemplate_e5431b9ac703f710d37c07fbd866e00f1b81ce8670a5d2a186fd7820cf2
 /*     <div class="slide-content light">*/
 /*         <div class="align-center">*/
 /* */
-/* */
-/*             <h1>welcome to Stockton tour guide</h1>*/
-/* */
+/*             <h1>welcome to Real Estate Interactive</h1>*/
 /* */
 /*             <div class="top-logo">*/
-/*                 <img src="{{ theme_url }}/images/logo.png" alt="logo">*/
+/*                 <img src="{{ theme_url }}/images/logo2.png" alt="logo">*/
 /*             </div>*/
 /* */
 /*         </div>*/
@@ -298,6 +296,8 @@ class __TwigTemplate_e5431b9ac703f710d37c07fbd866e00f1b81ce8670a5d2a186fd7820cf2
 /* <div id="bar1" class="container">*/
 /*     {% block content %}{% endblock %}*/
 /* </div>*/
+/* */
+/* <hr>*/
 /* */
 /* <div class="footer">*/
 /*     <div class="container">*/

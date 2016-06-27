@@ -1,7 +1,50 @@
-title: Julius
+title: Reno Real Estate Team
 author:
   name: Julius Alvarado
   email: 'javascript.uiux@gmail.com'
 metadata:
-    description: 'Built by Julius Alvarado w/ The Grav CMS'
+    description: 'Real Estate business template version 0.0.1'
+    
+# Site settings
+title: Real Estate Template
+email: javascript.uiux@gmail.com
+description: "A real estate business template website built by Julius Alvarado w/The Grav CMS"
 
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  -  url: "https://www.facebook.com/profile.php?id=100006703996427"
+     icon: facebook
+  -  url: "https://twitter.com/ideaguy3d"
+     icon: twitter
+  -  url: "https://plus.google.com/u/0/112344297862530715288/posts/p/pub"
+     icon: google-plus  
+
+# Main Menu
+menu:
+  - text: Features
+    link: "#features"
+  - text: Pricing
+    link: "#pricing"
+  - text: Screenshots
+    link: "#screenshots"
+  - text: Testimonials
+    link: "#testimonials"
+  - text: Subscribe
+    link: "#subscribe"    
+
+footer: 
+  text: "Real Estate Template"
+  address:
+    title: Visit Us
+    lines:
+      - line: 605 N El Dorado St
+      - line: Stockton, CA
+      - line: 95202 US
+  social_title: Socialize
+  contact:
+    title: Contact
+    lines:
+      - text: 209-111-2222
+        url: "#"
+      - text: agent@realestate.com
+        url: "agent@realestate.com"
