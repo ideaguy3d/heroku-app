@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1467010334,
-    'checksum' => 'bc3cd07c9500c724a4aee183e28420e3',
+    'timestamp' => 1467109019,
+    'checksum' => '931c0d9ab0e667b02a96f7a14de782d3',
     'files' => [
         'user/config' => [
             'plugins/simple_form' => [
@@ -15,7 +15,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1467010334
+                'modified' => 1467109015
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
@@ -318,7 +318,7 @@ return [
         'site' => [
             'title' => 'Reno Real Estate Team',
             'author' => [
-                'name' => 'Julius Alvarado',
+                'name' => 'Reno Real Estate Team',
                 'email' => 'javascript.uiux@gmail.com'
             ],
             'taxonomies' => [

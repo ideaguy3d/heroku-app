@@ -1,5 +1,6 @@
 ---
 title: Team
+
 ---
 
 
@@ -17,7 +18,3 @@ Johanne’s specialities include first-time home buyers and sellers, relocating 
 Gene studied psychology and business at California State University, Stanislaus. He first worked in medical finance before a friend recommended he pursue real estate. The idea of owning his own business and independence appealed to him, so he entered the real estate business in 2004.
 
 With a people-oriented focus and strong passion for real estate, Gene’s goal is to be of service to others as they make one of the greatest investments of their lives. He has more than 10 years experience helping buyers and sellers reach their goals, and he likes the challenges of the fast-paced business along with helping clients navigate the process.
-
-
-##Do you want to be a part of an innovative Real Estate Agency?
-Join our growing team at Reno Real Estate. A career with us means working in a fast-paced, team environment with people who love to be of service to others and partner with them to reach their real estate goals.

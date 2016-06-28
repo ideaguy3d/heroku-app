@@ -2,11 +2,11 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/grav/heroku-php/user/config/site.yaml',
-    'modified' => 1467010334,
+    'modified' => 1467109015,
     'data' => [
         'title' => 'Reno Real Estate Team',
         'author' => [
-            'name' => 'Julius Alvarado',
+            'name' => 'Reno Real Estate Team',
             'email' => 'javascript.uiux@gmail.com'
         ],
         'metadata' => [
