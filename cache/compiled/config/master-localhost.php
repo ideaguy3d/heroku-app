@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1467109019,
-    'checksum' => '931c0d9ab0e667b02a96f7a14de782d3',
+    'timestamp' => 1467286812,
+    'checksum' => 'fc8061695909a2e9505a739a257479e1',
     'files' => [
         'user/config' => [
             'plugins/simple_form' => [
@@ -15,7 +15,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1467109015
+                'modified' => 1467286812
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
@@ -356,7 +356,7 @@ return [
                 ]
             ],
             'footer' => [
-                'text' => 'Real Estate Template',
+                'text' => 'We find your perfect home.',
                 'address' => [
                     'title' => 'Visit Us',
                     'lines' => [
