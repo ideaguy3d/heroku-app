@@ -28,9 +28,9 @@
                     <h2>Subscribe to our mailing list</h2>
                     <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
                     <div class="mc-field-group">
-                        <label for="mce-EMAIL">Email Address <span class="asterisk">*</span>
-                        </label>
-                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                        <label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label>
+                        <input type="email" value="" name="EMAIL" class="required email animated fadeInLeftBig show"
+                               id="mce-EMAIL">
                     </div>
 
                     <div id="mce-responses" class="clear">
@@ -41,8 +41,7 @@
                     <div style="position: absolute; left: -5000px;" aria-hidden="true">
                         <input type="text" name="b_77ccce123501634e472222b21_ea1c449e79" tabindex="-1" value="">
                     </div>
-                    <input type="submit" value="Contact Us" name="subscribe" id="mc-embedded-subscribe"
-                           style="margin: 10px;">
+                    <input class="animated fadeInLeftBig show" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">
                 </div>
             </form>
         </div>
