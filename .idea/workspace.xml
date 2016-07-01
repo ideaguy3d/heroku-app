@@ -2,11 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec1f0661-3077-41e7-84e7-4166d6d0a6fd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/pages/02.about/_features/features.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/pages/01.home/_features/features.md" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/user/pages/01.home/_callout/callout.md" afterPath="$PROJECT_DIR$/user/pages/02.about/_callout/callout.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/user/pages/01.home/_features/feature-image-1.png" afterPath="$PROJECT_DIR$/user/pages/02.about/_features/feature-image-1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/user/pages/01.home/_features/feature-image-2.png" afterPath="$PROJECT_DIR$/user/pages/02.about/_features/feature-image-2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/user/pages/01.home/_features/feature-image-3.png" afterPath="$PROJECT_DIR$/user/pages/02.about/_features/feature-image-3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/user/pages/01.home/_features/graphic2study.txt" afterPath="$PROJECT_DIR$/user/pages/02.about/_features/graphic2study.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/user/pages/01.home/_features/old-feature-image-1.png" afterPath="$PROJECT_DIR$/user/pages/02.about/_features/old-feature-image-1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/user/pages/01.home/_features/old-feature-image-2.png" afterPath="$PROJECT_DIR$/user/pages/02.about/_features/old-feature-image-2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/user/pages/01.home/_features/old-feature-image-3.png" afterPath="$PROJECT_DIR$/user/pages/02.about/_features/old-feature-image-3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/user/pages/01.home/_showcase/hero-image.png" afterPath="$PROJECT_DIR$/user/pages/02.about/_showcase/hero-image.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/user/pages/01.home/_showcase/landing-image.png" afterPath="$PROJECT_DIR$/user/pages/02.about/_showcase/landing-image.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/user/pages/01.home/_showcase/showcase.md" afterPath="$PROJECT_DIR$/user/pages/02.about/_showcase/showcase.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/user/pages/01.home/modular.md" afterPath="$PROJECT_DIR$/user/pages/02.about/modular.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/user/pages/02.about/default.md" afterPath="$PROJECT_DIR$/user/pages/02.about/zcontent.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/twig/03/0331506a9382eb47e5c2c677adf8bee885bd038cc1195f04fff99b9ba1eb3e7b.php" afterPath="$PROJECT_DIR$/cache/twig/03/0331506a9382eb47e5c2c677adf8bee885bd038cc1195f04fff99b9ba1eb3e7b.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/grav.log" afterPath="$PROJECT_DIR$/logs/grav.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/09.contact/contact.md" afterPath="$PROJECT_DIR$/user/pages/09.contact/contact.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/jtest.html" afterPath="$PROJECT_DIR$/user/pages/jtest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/themes/woo/css/layout.css" afterPath="$PROJECT_DIR$/user/themes/woo/css/layout.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/themes/woo/js/main.js" afterPath="$PROJECT_DIR$/user/themes/woo/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/themes/woo/templates/modular/features.html.twig" afterPath="$PROJECT_DIR$/user/themes/woo/templates/modular/features.html.twig" />
     </list>
     <ignored path="heroku-php.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,11 +47,11 @@
         <splitter split-orientation="vertical" split-proportion="0.46839377">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file leaf-file-name="jtest.html" pinned="false" current-in-tab="true">
+              <file leaf-file-name="jtest.html" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/user/pages/jtest.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="235">
-                      <caret line="43" column="93" selection-start-line="43" selection-start-column="93" selection-end-line="43" selection-end-column="93" />
+                    <state relative-caret-position="283">
+                      <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
                       <folding>
                         <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="false" />
                         <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
@@ -47,15 +62,28 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="default.html.twig" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/user/themes/woo/templates/default.html.twig">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="160">
-                      <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-                      <folding>
-                        <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-                        <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
-                      </folding>
+              <file leaf-file-name="features.md" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/user/pages/02.about/_features/features.md">
+                  <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                    <state split_layout="FIRST">
+                      <first_editor relative-caret-position="528">
+                        <caret line="30" column="385" selection-start-line="30" selection-start-column="385" selection-end-line="30" selection-end-column="385" />
+                        <folding />
+                      </first_editor>
+                      <second_editor />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="showcase.md" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/user/pages/02.about/_showcase/showcase.md">
+                  <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                    <state split_layout="FIRST">
+                      <first_editor relative-caret-position="80">
+                        <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+                        <folding />
+                      </first_editor>
+                      <second_editor />
                     </state>
                   </provider>
                 </entry>
@@ -64,19 +92,6 @@
           </split-first>
           <split-second>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file leaf-file-name="contact.md" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/user/pages/09.contact/contact.md">
-                  <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                    <state split_layout="FIRST">
-                      <first_editor relative-caret-position="126">
-                        <caret line="43" column="93" selection-start-line="43" selection-start-column="93" selection-end-line="43" selection-end-column="93" />
-                        <folding />
-                      </first_editor>
-                      <second_editor />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
               <file leaf-file-name="listings.md" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/user2/pages/11.listings/listings.md">
                   <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -86,6 +101,16 @@
                         <folding />
                       </first_editor>
                       <second_editor />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="features.html.twig" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/user/themes/woo/templates/modular/features.html.twig">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="32">
+                      <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+                      <folding />
                     </state>
                   </provider>
                 </entry>
@@ -126,12 +151,25 @@
                       </provider>
                     </entry>
                   </file>
-                  <file leaf-file-name="contact.html.twig" pinned="false" current-in-tab="true">
+                  <file leaf-file-name="contact.html.twig" pinned="false" current-in-tab="false">
                     <entry file="file://$PROJECT_DIR$/user/themes/woo/templates/contact.html.twig">
                       <provider selected="true" editor-type-id="text-editor">
                         <state relative-caret-position="112">
                           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
                           <folding />
+                        </state>
+                      </provider>
+                    </entry>
+                  </file>
+                  <file leaf-file-name="zcontent.md" pinned="false" current-in-tab="true">
+                    <entry file="file://$PROJECT_DIR$/user/pages/02.about/zcontent.md">
+                      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                        <state split_layout="FIRST">
+                          <first_editor relative-caret-position="688">
+                            <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="344" />
+                            <folding />
+                          </first_editor>
+                          <second_editor />
                         </state>
                       </provider>
                     </entry>
@@ -153,8 +191,8 @@
                   <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
                     <entry file="file://$PROJECT_DIR$/user/themes/woo/js/main.js">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="275">
-                          <caret line="140" column="80" selection-start-line="140" selection-start-column="58" selection-end-line="140" selection-end-column="80" />
+                        <state relative-caret-position="251">
+                          <caret line="143" column="30" selection-start-line="143" selection-start-column="30" selection-end-line="143" selection-end-column="30" />
                           <folding>
                             <element signature="n#!!doc" expanded="true" />
                             <element signature="e#384#752#0" expanded="false" />
@@ -252,10 +290,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/user/themes/mytheme/templates/partials/landing.html.twig" />
-        <option value="$PROJECT_DIR$/user/themes/mytheme/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/user/themes/mytheme/templates/partials/header.html.twig" />
-        <option value="$PROJECT_DIR$/user/themes/mytheme/templates/partials/base-landing.html.twig" />
         <option value="$PROJECT_DIR$/user/themes/mytheme/templates/partials/base.html.twig" />
         <option value="$PROJECT_DIR$/user/themes/mytheme/templates/listings.html.twig" />
         <option value="$PROJECT_DIR$/user/themes/mytheme/templates/default.html.twig" />
@@ -288,7 +322,6 @@
         <option value="$PROJECT_DIR$/user/pages/05.testimonials/default.md" />
         <option value="$PROJECT_DIR$/user/pages/06.contact/default.md" />
         <option value="$PROJECT_DIR$/user/pages/01.home/_showcase/showcase.md" />
-        <option value="$PROJECT_DIR$/user/pages/01.home/_features/features.md" />
         <option value="$PROJECT_DIR$/user/pages/04.listings/listings.md" />
         <option value="$PROJECT_DIR$/user/themes/woo/templates/listings.html.twig" />
         <option value="$PROJECT_DIR$/user/themes/woo/templates/partials/footer.html.twig" />
@@ -300,9 +333,14 @@
         <option value="$PROJECT_DIR$/user/pages/01.home/_callout/callout.md" />
         <option value="$PROJECT_DIR$/user2/pages/01.home/_subscribe/subscribe.md" />
         <option value="$PROJECT_DIR$/user/themes/woo/css/layout.css" />
-        <option value="$PROJECT_DIR$/user/themes/woo/js/main.js" />
         <option value="$PROJECT_DIR$/user/pages/jtest.html" />
         <option value="$PROJECT_DIR$/user/pages/09.contact/contact.md" />
+        <option value="$PROJECT_DIR$/user/pages/01.home/_features/features.md" />
+        <option value="$PROJECT_DIR$/user/pages/02.about/modular.md" />
+        <option value="$PROJECT_DIR$/user/pages/02.about/_showcase/showcase.md" />
+        <option value="$PROJECT_DIR$/user/themes/woo/templates/modular/features.html.twig" />
+        <option value="$PROJECT_DIR$/user/pages/02.about/_features/features.md" />
+        <option value="$PROJECT_DIR$/user/themes/woo/js/main.js" />
       </list>
     </option>
   </component>
@@ -348,7 +386,226 @@
     <panes>
       <pane id="Scratches" />
       <pane id="ProjectPane">
-        <subPane />
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heroku-php" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heroku-php" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heroku-php" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heroku-php" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heroku-php" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heroku-php" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heroku-php" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heroku-php" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heroku-php" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="woo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heroku-php" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heroku-php" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="woo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heroku-php" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heroku-php" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="woo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modular" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heroku-php" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heroku-php" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heroku-php" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heroku-php" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="02.about" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heroku-php" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heroku-php" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="02.about" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_showcase" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heroku-php" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heroku-php" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="02.about" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_callout" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
       <pane id="Scope" />
     </panes>
@@ -363,8 +620,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\grav\heroku-php\user2\pages\01.home" />
       <recent name="C:\xampp\htdocs\grav\heroku-php\user\pages\01.home" />
+      <recent name="C:\xampp\htdocs\grav\heroku-php\user2\pages\01.home" />
       <recent name="C:\xampp\htdocs\grav\heroku-php\user2\pages" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -432,12 +689,12 @@
       <workItem from="1467001055152" duration="17275000" />
       <workItem from="1467108389545" duration="5872000" />
       <workItem from="1467244468528" duration="575000" />
-      <workItem from="1467286610641" duration="12480000" />
+      <workItem from="1467286610641" duration="14987000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70487000" />
+    <option name="totallyTimeSpent" value="72994000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -450,15 +707,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1119403" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1119403" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32953367" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -506,9 +763,8 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/user/themes/mytheme/templates/blog.html.twig" />
     <entry file="file://$PROJECT_DIR$/user/themes/antimatter/templates/item.html.twig" />
-    <entry file="file://$PROJECT_DIR$/user/pages/01.home/default.md" />
+    <entry file="file://$PROJECT_DIR$/user/pages/02.about/zcontent.md" />
     <entry file="file://$PROJECT_DIR$/user/assets/readme_1.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -575,16 +831,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/pages/02.about/default.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="256">
-            <caret line="16" column="249" selection-start-line="16" selection-start-column="249" selection-end-line="16" selection-end-column="249" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user/themes/woo/css/default.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13376">
@@ -626,7 +872,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/pages/01.home/_features/feature-image-1.png">
+    <entry file="file://$PROJECT_DIR$/user/pages/02.about/_features/feature-image-1.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -636,26 +882,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="-571">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/pages/01.home/_features/features.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="384">
-            <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/pages/01.home/modular.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="-32">
-            <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
           </first_editor>
           <second_editor />
         </state>
@@ -734,17 +960,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user2/pages/11.listings/listings.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="96">
-            <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user/pages/08.team/default.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -761,17 +976,6 @@
         <state relative-caret-position="128">
           <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/pages/01.home/_showcase/showcase.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="96">
-            <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -806,17 +1010,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/pages/01.home/_callout/callout.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="64">
-            <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user2/pages/01.home/_subscribe/subscribe.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -825,25 +1018,6 @@
             <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/themes/woo/templates/contact.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/themes/woo/templates/default.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -863,22 +1037,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/themes/woo/js/main.js">
+    <entry file="file://$PROJECT_DIR$/user/pages/09.contact/contact.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="126">
+            <caret line="43" column="93" selection-start-line="43" selection-start-column="93" selection-end-line="43" selection-end-column="93" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/woo/templates/contact.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="140" column="80" selection-start-line="140" selection-start-column="58" selection-end-line="140" selection-end-column="80" />
+        <state relative-caret-position="112">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/woo/templates/default.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#384#752#0" expanded="false" />
-            <element signature="e#2241#2526#0" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#section#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user/pages/jtest.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="43" column="93" selection-start-line="43" selection-start-column="93" selection-end-line="43" selection-end-column="93" />
+        <state relative-caret-position="283">
+          <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
@@ -888,14 +1080,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/pages/09.contact/contact.md">
+    <entry file="file://$PROJECT_DIR$/user/pages/02.about/zcontent.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="126">
-            <caret line="43" column="93" selection-start-line="43" selection-start-column="93" selection-end-line="43" selection-end-column="93" />
+          <first_editor relative-caret-position="688">
+            <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="344" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/pages/02.about/modular.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="32">
+            <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/pages/02.about/_callout/callout.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="144">
+            <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/pages/02.about/_showcase/showcase.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="80">
+            <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user2/pages/11.listings/listings.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="96">
+            <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/woo/templates/modular/features.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/pages/02.about/_features/features.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="528">
+            <caret line="30" column="385" selection-start-line="30" selection-start-column="385" selection-end-line="30" selection-end-column="385" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/woo/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="143" column="30" selection-start-line="143" selection-start-column="30" selection-end-line="143" selection-end-column="30" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#384#752#0" expanded="false" />
+            <element signature="e#2241#2526#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

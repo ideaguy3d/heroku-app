@@ -26,9 +26,8 @@ class __TwigTemplate_6a230aa570afdc04a07043928f56d31b19dadac847a468777fee9c596aa
             echo "    <div class=\"row feature ";
             echo $this->getAttribute($context["row"], "name", array());
             echo "\">
-
       <div class=\"";
-            // line 5
+            // line 4
             if (($this->getAttribute($context["row"], "image", array()) || $this->getAttribute($context["row"], "video", array()))) {
                 echo "six";
             } else {
@@ -38,17 +37,17 @@ class __TwigTemplate_6a230aa570afdc04a07043928f56d31b19dadac847a468777fee9c596aa
             echo $this->getAttribute($context["row"], "description_position", array());
             echo "\">
         <h3>";
-            // line 6
+            // line 5
             echo $this->getAttribute($context["row"], "title", array());
             echo "</h3>
         <p>";
-            // line 7
+            // line 6
             echo $this->getAttribute($context["row"], "description", array());
             echo "</p>
       </div>
 
       <div class=\"";
-            // line 10
+            // line 9
             if (($this->getAttribute($context["row"], "image", array()) || $this->getAttribute($context["row"], "video", array()))) {
                 echo "six";
             } else {
@@ -62,27 +61,27 @@ class __TwigTemplate_6a230aa570afdc04a07043928f56d31b19dadac847a468777fee9c596aa
             }
             echo "\">
         ";
-            // line 11
+            // line 10
             if ($this->getAttribute($context["row"], "image", array())) {
-                // line 12
+                // line 11
                 echo "          ";
                 echo $this->getAttribute($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "media", array()), $this->getAttribute($context["row"], "image", array()), array(), "array"), "html", array(), "method");
                 echo "
         ";
             }
-            // line 14
+            // line 13
             echo "        ";
             if ($this->getAttribute($context["row"], "video", array())) {
-                // line 15
+                // line 14
                 echo "          <div class=\"fluid-video-wrapper\">
             <iframe src=\"";
-                // line 16
+                // line 15
                 echo $this->getAttribute($context["row"], "video", array());
                 echo "?title=0&amp;byline=0&amp;portrait=0&amp;color=F64B39\" width=\"500\" height=\"281\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
           </div>
         ";
             }
-            // line 19
+            // line 18
             echo "      </div>
 
     </div>
@@ -91,10 +90,10 @@ class __TwigTemplate_6a230aa570afdc04a07043928f56d31b19dadac847a468777fee9c596aa
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['row'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 23
+        // line 22
         echo "  <div class=\"row feature\">
     ";
-        // line 24
+        // line 23
         echo (isset($context["content"]) ? $context["content"] : null);
         echo "
   </div>
@@ -113,13 +112,12 @@ class __TwigTemplate_6a230aa570afdc04a07043928f56d31b19dadac847a468777fee9c596aa
 
     public function getDebugInfo()
     {
-        return array (  98 => 24,  95 => 23,  86 => 19,  80 => 16,  77 => 15,  74 => 14,  68 => 12,  66 => 11,  52 => 10,  46 => 7,  42 => 6,  32 => 5,  26 => 3,  22 => 2,  19 => 1,);
+        return array (  97 => 23,  94 => 22,  85 => 18,  79 => 15,  76 => 14,  73 => 13,  67 => 11,  65 => 10,  51 => 9,  45 => 6,  41 => 5,  31 => 4,  26 => 3,  22 => 2,  19 => 1,);
     }
 }
 /* <section id='features'>*/
 /*   {% for row in page.header.rows %}*/
 /*     <div class="row feature {{row.name}}">*/
-/* */
 /*       <div class="{% if row.image or row.video %}six{% else %}twelve{% endif %} columns {{ row.description_position }}">*/
 /*         <h3>{{ row.title }}</h3>*/
 /*         <p>{{ row.description }}</p>*/

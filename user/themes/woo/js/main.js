@@ -132,6 +132,18 @@
         $('.js .cross-browser .feature-media').addClass('animated pulse');
     }, {offset: 'bottom-in-view'});
 
+    $('.js .design2').waypoint(function () {
+        $('.js .design2 .feature-media').addClass('animated pulse');
+    }, {offset: 'bottom-in-view'});
+
+    $('.js .responsive2').waypoint(function () {
+        $('.js .responsive2 .feature-media').addClass('animated pulse');
+    }, {offset: 'bottom-in-view'});
+
+    $('.js .cross-browser2').waypoint(function () {
+        $('.js .cross-browser2 .feature-media').addClass('animated pulse');
+    }, {offset: 'bottom-in-view'});
+
     $('.js .video').waypoint(function () {
         $('.js .video .feature-media').addClass('animated pulse');
     }, {offset: 'bottom-in-view'});

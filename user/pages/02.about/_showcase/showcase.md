@@ -3,7 +3,7 @@ title: Let us find your Dream Home.
 showcase_image: landing-image.png
 buttons:
     - text: Buyer
-      url: '#screenshots'
+      url: '/grav/'
       class: button learn-more smoothscroll
     - text:  Seller
       url: '#subscribe'
