@@ -817,7 +817,7 @@ ul.features li:nth-child(even) {
     padding: 0;
 }
 
-/* mailchimp signup form
+/* mailchimp signup form */
 #mc_embed_signup {
     background: none;
     clear: both;
@@ -838,7 +838,6 @@ ul.features li:nth-child(even) {
 }
 
 #mc_embed_signup input[type="submit"] {
-    float: right;
     height: 60px;
     margin: 0;
     padding: 0 20px;
@@ -859,7 +858,7 @@ ul.features li:nth-child(even) {
     width: 47%;
     text-align: center;
 }
-*/
+
 
 /* ------------------------------------------------------------------ */
 /* j. Footer

@@ -42,7 +42,7 @@
                         <input type="text" name="b_77ccce123501634e472222b21_ea1c449e79" tabindex="-1" value="">
                     </div>
                     <input type="submit" value="Contact Us" name="subscribe" id="mc-embedded-subscribe"
-                           style="margin-top: 0;">
+                           style="margin: 10px;">
                 </div>
             </form>
         </div>
