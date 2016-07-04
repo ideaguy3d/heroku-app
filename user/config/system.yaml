@@ -1,5 +1,6 @@
 home:
   alias: '/home'
+  hide_in_urls: false
 
 pages:
   theme: woo

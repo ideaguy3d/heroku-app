@@ -2,10 +2,11 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/grav/heroku-php/user/config/system.yaml',
-    'modified' => 1466936772,
+    'modified' => 1467619808,
     'data' => [
         'home' => [
-            'alias' => '/home'
+            'alias' => '/home',
+            'hide_in_urls' => false
         ],
         'pages' => [
             'theme' => 'woo',
