@@ -2,36 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec1f0661-3077-41e7-84e7-4166d6d0a6fd" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ (2).gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ (2).htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/problem-check-g-192b783f" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/user/pages/02.about/_callout/callout.md" afterPath="$PROJECT_DIR$/user/pages/01.home/_callout/callout.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/user/pages/02.about/_features/feature-image-1.png" afterPath="$PROJECT_DIR$/user/pages/01.home/_features/feature-image-1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/user/pages/02.about/_features/feature-image-2.png" afterPath="$PROJECT_DIR$/user/pages/01.home/_features/feature-image-2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/user/pages/02.about/_features/feature-image-3.png" afterPath="$PROJECT_DIR$/user/pages/01.home/_features/feature-image-3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/user/pages/02.about/_features/feature-image-4.png" afterPath="$PROJECT_DIR$/user/pages/01.home/_features/feature-image-4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/user/pages/02.about/_features/features.md" afterPath="$PROJECT_DIR$/user/pages/01.home/_features/features.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/user/pages/02.about/_features/graphic2study.txt" afterPath="$PROJECT_DIR$/user/pages/01.home/_features/graphic2study.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/user/pages/02.about/_features/old-feature-image-1.png" afterPath="$PROJECT_DIR$/user/pages/01.home/_features/old-feature-image-1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/user/pages/02.about/_features/old-feature-image-2.png" afterPath="$PROJECT_DIR$/user/pages/01.home/_features/old-feature-image-2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/user/pages/02.about/_features/old-feature-image-3.png" afterPath="$PROJECT_DIR$/user/pages/01.home/_features/old-feature-image-3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/user/pages/02.about/_showcase/hero-image.png" afterPath="$PROJECT_DIR$/user/pages/01.home/_showcase/hero-image.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/user/pages/02.about/_showcase/landing-image.png" afterPath="$PROJECT_DIR$/user/pages/01.home/_showcase/landing-image.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/user/pages/02.about/_showcase/showcase.md" afterPath="$PROJECT_DIR$/user/pages/01.home/_showcase/showcase.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/user/pages/02.about/modular.md" afterPath="$PROJECT_DIR$/user/pages/01.home/modular.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/user/pages/02.about/zcontent.md" afterPath="$PROJECT_DIR$/user/pages/01.home/zcontent.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/user/pages/03.blog/blog.md" afterPath="$PROJECT_DIR$/user/pages/02.blog/blog.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/user/pages/05.testimonials/default.md" afterPath="$PROJECT_DIR$/user/pages/03.testimonials/default.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/user/pages/07.neighborhoods/default.md" afterPath="$PROJECT_DIR$/user/pages/04.neighborhoods/default.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/user/pages/08.team/default.md" afterPath="$PROJECT_DIR$/user/pages/05.team/default.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/user/pages/09.contact/contact.md" afterPath="$PROJECT_DIR$/user/pages/06.contact/contact.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/pages/01.home/_features/old-feature-image-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/pages/01.home/_features/old-feature-image-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/pages/01.home/_features/old-feature-image-3.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/compiled/config/master-localhost.php" afterPath="$PROJECT_DIR$/cache/compiled/config/master-localhost.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/compiled/files/5fa1745f7001b4ba944296b4ef2f010d.yaml.php" afterPath="$PROJECT_DIR$/cache/compiled/files/5fa1745f7001b4ba944296b4ef2f010d.yaml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/twig/03/0331506a9382eb47e5c2c677adf8bee885bd038cc1195f04fff99b9ba1eb3e7b.php" afterPath="$PROJECT_DIR$/cache/twig/03/0331506a9382eb47e5c2c677adf8bee885bd038cc1195f04fff99b9ba1eb3e7b.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/grav.log" afterPath="$PROJECT_DIR$/logs/grav.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/config/system.yaml" afterPath="$PROJECT_DIR$/user/config/system.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/themes/woo/templates/modular/features.html.twig" afterPath="$PROJECT_DIR$/user/themes/woo/templates/modular/features.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/01.home/_features/features.md" afterPath="$PROJECT_DIR$/user/pages/01.home/_features/features.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/03.testimonials/default.md" afterPath="$PROJECT_DIR$/user/pages/03.testimonials/default.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/04.neighborhoods/default.md" afterPath="$PROJECT_DIR$/user/pages/04.neighborhoods/default.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/05.team/default.md" afterPath="$PROJECT_DIR$/user/pages/05.team/default.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/06.contact/contact.md" afterPath="$PROJECT_DIR$/user/pages/06.contact/contact.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/jtest.html" afterPath="$PROJECT_DIR$/user/pages/jtest.html" />
     </list>
     <ignored path="heroku-php.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,58 +33,33 @@
     <favorites_list name="heroku-php" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.41024098">
+    <splitter split-orientation="horizontal" split-proportion="0.60338575">
       <split-first>
-        <splitter split-orientation="vertical" split-proportion="0.46839377">
+        <splitter split-orientation="vertical" split-proportion="0.7689119">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
               <file leaf-file-name="jtest.html" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/user/pages/jtest.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="624">
-                      <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+                    <state relative-caret-position="374">
+                      <caret line="51" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="94" selection-end-column="6" />
                       <folding>
-                        <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="false" />
-                        <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                        <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                        <element signature="n#style#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                        <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                        <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="false" />
+                        <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#form#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                        <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#form#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                        <element signature="n#style#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
                       </folding>
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="features.md" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/user/pages/01.home/_features/features.md">
+              <file leaf-file-name="contact.md" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/user/pages/06.contact/contact.md">
                   <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                     <state split_layout="FIRST">
-                      <first_editor relative-caret-position="480">
-                        <caret line="30" column="385" selection-start-line="30" selection-start-column="385" selection-end-line="30" selection-end-column="385" />
-                        <folding />
-                      </first_editor>
-                      <second_editor />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="showcase.md" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/user/pages/01.home/_showcase/showcase.md">
-                  <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                    <state split_layout="FIRST">
-                      <first_editor relative-caret-position="80">
-                        <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-                        <folding />
-                      </first_editor>
-                      <second_editor />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="modular.md" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/user/pages/01.home/modular.md">
-                  <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                    <state split_layout="FIRST">
-                      <first_editor relative-caret-position="32">
-                        <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+                      <first_editor relative-caret-position="655">
+                        <caret line="94" column="6" selection-start-line="94" selection-start-column="6" selection-end-line="94" selection-end-column="6" />
                         <folding />
                       </first_editor>
                       <second_editor />
@@ -115,35 +71,12 @@
           </split-first>
           <split-second>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file leaf-file-name="listings.md" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/user2/pages/11.listings/listings.md">
-                  <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                    <state split_layout="FIRST">
-                      <first_editor relative-caret-position="96">
-                        <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-                        <folding />
-                      </first_editor>
-                      <second_editor />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="features.html.twig" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/user/themes/woo/templates/modular/features.html.twig">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="368">
-                      <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="default.md" pinned="false" current-in-tab="false">
+              <file leaf-file-name="default.md" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/user/pages/05.team/default.md">
                   <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                     <state split_layout="FIRST">
-                      <first_editor relative-caret-position="32">
-                        <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+                      <first_editor relative-caret-position="160">
+                        <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
                         <folding />
                       </first_editor>
                       <second_editor />
@@ -156,7 +89,7 @@
         </splitter>
       </split-first>
       <split-second>
-        <splitter split-orientation="horizontal" split-proportion="0.66765875">
+        <splitter split-orientation="horizontal" split-proportion="0.6572816">
           <split-first>
             <splitter split-orientation="vertical" split-proportion="0.47357512">
               <split-first>
@@ -188,7 +121,7 @@
                     <entry file="file://$PROJECT_DIR$/user/pages/01.home/zcontent.md">
                       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                         <state split_layout="FIRST">
-                          <first_editor relative-caret-position="704">
+                          <first_editor relative-caret-position="256">
                             <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
                             <folding />
                           </first_editor>
@@ -205,7 +138,7 @@
                     <entry file="file://$PROJECT_DIR$/user/config/system.yaml">
                       <provider selected="true" editor-type-id="text-editor">
                         <state relative-caret-position="16">
-                          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="15" />
+                          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
                           <folding />
                         </state>
                       </provider>
@@ -289,10 +222,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/user/themes/mytheme/templates/partials/base.html.twig" />
-        <option value="$PROJECT_DIR$/user/themes/mytheme/templates/listings.html.twig" />
-        <option value="$PROJECT_DIR$/user/themes/mytheme/templates/default.html.twig" />
-        <option value="$PROJECT_DIR$/user/themes/mytheme/templates/blog.html.twig" />
         <option value="$PROJECT_DIR$/user/pages/01.home/default.md" />
         <option value="$PROJECT_DIR$/user/themes/mytheme/js/jcustom.js" />
         <option value="$PROJECT_DIR$/user/pages/05.happy homes - clients testimonials/default.md" />
@@ -330,9 +259,7 @@
         <option value="$PROJECT_DIR$/user/pages/01.home/_callout/callout.md" />
         <option value="$PROJECT_DIR$/user2/pages/01.home/_subscribe/subscribe.md" />
         <option value="$PROJECT_DIR$/user/themes/woo/css/layout.css" />
-        <option value="$PROJECT_DIR$/user/pages/jtest.html" />
         <option value="$PROJECT_DIR$/user/pages/09.contact/contact.md" />
-        <option value="$PROJECT_DIR$/user/pages/01.home/_features/features.md" />
         <option value="$PROJECT_DIR$/user/pages/02.about/modular.md" />
         <option value="$PROJECT_DIR$/user/pages/02.about/_showcase/showcase.md" />
         <option value="$PROJECT_DIR$/user/pages/02.about/_features/features.md" />
@@ -340,6 +267,12 @@
         <option value="$PROJECT_DIR$/user/config/system.yaml" />
         <option value="$PROJECT_DIR$/user/themes/woo/templates/modular/features.html.twig" />
         <option value="$PROJECT_DIR$/user/pages/01.home/modular.md" />
+        <option value="$PROJECT_DIR$/user/pages/01.home/_features/features.md" />
+        <option value="$PROJECT_DIR$/user/pages/05.team/default.md" />
+        <option value="$PROJECT_DIR$/user/pages/03.testimonials/default.md" />
+        <option value="$PROJECT_DIR$/user/pages/04.neighborhoods/default.md" />
+        <option value="$PROJECT_DIR$/user/pages/jtest.html" />
+        <option value="$PROJECT_DIR$/user/pages/06.contact/contact.md" />
       </list>
     </option>
   </component>
@@ -383,6 +316,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -448,28 +382,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="woo" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="heroku-php" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="heroku-php" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -492,17 +404,16 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="01.home" />
+              <option name="myItemId" value="06.contact" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../grav-admin" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
@@ -583,12 +494,15 @@
       <workItem from="1467286610641" duration="15741000" />
       <workItem from="1467371277134" duration="2035000" />
       <workItem from="1467429311823" duration="588000" />
-      <workItem from="1467607632002" duration="2189000" />
+      <workItem from="1467607632002" duration="4155000" />
+      <workItem from="1467652248110" duration="2203000" />
+      <workItem from="1467659677585" duration="335000" />
+      <workItem from="1467773228577" duration="4587000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78560000" />
+    <option name="totallyTimeSpent" value="87651000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -603,7 +517,7 @@
     <frame x="1358" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11513859" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.118336886" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -657,7 +571,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/user/themes/antimatter/templates/item.html.twig" />
     <entry file="file://$PROJECT_DIR$/user/pages/01.home/zcontent.md" />
     <entry file="file://$PROJECT_DIR$/user/assets/readme_1.png">
       <provider selected="true" editor-type-id="images">
@@ -746,16 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/pages/04.neighborhoods/default.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="435">
-            <caret line="46" column="183" selection-start-line="46" selection-start-column="183" selection-end-line="46" selection-end-column="183" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user/pages/09.contact/default.md" />
     <entry file="file://$PROJECT_DIR$/user/pages/01.home/_features/feature-image-1.png">
       <provider selected="true" editor-type-id="images">
@@ -785,16 +688,6 @@
         <state relative-caret-position="10784">
           <caret line="674" column="29" selection-start-line="674" selection-start-column="14" selection-end-line="674" selection-end-column="29" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/pages/03.testimonials/default.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="304">
-            <caret line="13" column="259" selection-start-line="13" selection-start-column="259" selection-end-line="13" selection-end-column="259" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -835,17 +728,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user/pages/09.contact/contact-us.md" />
-    <entry file="file://$PROJECT_DIR$/user/pages/05.team/default.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="32">
-            <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user/themes/woo/templates/modular/screenshots.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -884,16 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/pages/06.contact/contact.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="126">
-            <caret line="43" column="93" selection-start-line="43" selection-start-column="93" selection-end-line="43" selection-end-column="93" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user/themes/woo/templates/contact.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -909,46 +781,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/pages/jtest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user/pages/01.home/_callout/callout.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="144">
             <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user2/pages/11.listings/listings.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="96">
-            <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/pages/01.home/_features/features.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="480">
-            <caret line="30" column="385" selection-start-line="30" selection-start-column="385" selection-end-line="30" selection-end-column="385" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -968,41 +805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/themes/woo/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/pages/01.home/zcontent.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="704">
-            <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/themes/woo/templates/modular/features.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/config/system.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user/pages/01.home/_showcase/showcase.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -1014,11 +816,131 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/woo/templates/modular/features.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user2/pages/11.listings/listings.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="96">
+            <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/pages/01.home/zcontent.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="256">
+            <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/config/system.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/woo/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/user/pages/01.home/modular.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="32">
-            <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <first_editor relative-caret-position="80">
+            <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/pages/01.home/_features/features.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="302">
+            <caret line="20" column="116" selection-start-line="20" selection-start-column="116" selection-end-line="20" selection-end-column="116" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/pages/05.team/default.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="160">
+            <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/pages/04.neighborhoods/default.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="208">
+            <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/pages/03.testimonials/default.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="80">
+            <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/pages/jtest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="51" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="94" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#form#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#form#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/pages/06.contact/contact.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="655">
+            <caret line="94" column="6" selection-start-line="94" selection-start-column="6" selection-end-line="94" selection-end-column="6" />
             <folding />
           </first_editor>
           <second_editor />

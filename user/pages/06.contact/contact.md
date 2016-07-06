@@ -1,6 +1,18 @@
+<!-- Image Background Parallax, very top of the page -->
+<div class="image-parallax" style="color:#ffffff;">
+    <div class="slide-content light">
+        <div class="align-center">
+            <div class="top-logo">
+                <img src="user/themes/imgs/h7.jpg" alt="logo">
+            </div>
+        </div>
+    </div>
+</div>
+
+
 <div class="row section-head">
     <div class="twelve columns">
-        <h1>Contact Reno Real Estate Team.</h1>
+        <h1>Contact <i> Reno Real Estate Team.</i></h1>
         <p>Let's get started with finding, or selling, that next perfect home for you.</p>
     </div>
 </div>
@@ -10,22 +22,35 @@
         <!-- Begin MailChimp Signup Form -->
         <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
         <style type="text/css">
-            #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+            #mc_embed_signup {
+                background: #fff;
+                clear: left;
+                font: 14px Helvetica, Arial, sans-serif;
+            }
+
             /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
                We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
         </style>
         <div id="mc_embed_signup">
             <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
             <style type="text/css">
-                #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+                #mc_embed_signup {
+                    background: #fff;
+                    clear: left;
+                    font: 14px Helvetica, Arial, sans-serif;
+                }
+
                 /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
                    We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
             </style>
             <form action="//juliusalvarado.us13.list-manage.com/subscribe/post?u=77ccce123501634e472222b21&amp;id=ea1c449e79"
                   method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
                   target="_blank" novalidate>
+
                 <div id="mc_embed_signup_scroll">
-                    <h2>Subscribe to our mailing list</h2>
+                    <h2>Contacting us also Subscribes you to our mailing list <i class="fa fa-check-square"></i> </h2>
+
+                    <!-- forms start -->
                     <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
                     <div class="mc-field-group">
                         <label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label>
@@ -41,7 +66,8 @@
                     <div style="position: absolute; left: -5000px;" aria-hidden="true">
                         <input type="text" name="b_77ccce123501634e472222b21_ea1c449e79" tabindex="-1" value="">
                     </div>
-                    <input class="animated fadeInLeftBig show" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">
+                    <input class="animated fadeInLeftBig show" type="submit" value="Contact Us" name="subscribe"
+                           id="mc-embedded-subscribe">
                 </div>
             </form>
         </div>
@@ -61,7 +87,9 @@
             var $mcj = jQuery.noConflict(true);
         </script>
         <!--End mc_embed_signup-->
-        <p><small>We never share your information or use it to spam you.</small></p>
+        <p>
+            <small>We never share your information or use it to spam you.</small>
+        </p>
     </div>
 
 </div>

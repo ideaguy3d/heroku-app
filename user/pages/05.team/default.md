@@ -4,7 +4,15 @@ title: Team
 ---
 
 
-
+<div class="image-parallax" style="color:#ffffff; background-image: url('user/themes/imgs/white-bg.jpg')">
+    <div class="slide-content light">
+        <div class="align-center">
+            <div class="top-logo">
+                <img src="user/themes/imgs/team2.jpg" alt="logo">
+            </div>
+        </div>
+    </div>
+</div>
 #The Team
 ***
 ##Johanne Reno

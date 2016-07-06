@@ -9,7 +9,9 @@ title: Neighborhoods
             <!-- /Top Logo -->
             <h1 style="color:#ffffff;">Neighborhoods</h1>
             <div class="top-logo">
-                <img src="user2/themes/mytheme/images/logo.png" alt="logo">
+                <i class="fa fa-home fa-5x"></i>
+                <h5 style="color:#ffffff;">From Sacramento to Livermore to Modesto</h5>
+                <h5 style="color:#ffffff;"><small>... and everything in between</small></h5>
             </div>
         </div>
     </div>
