@@ -2,7 +2,7 @@
 title: We will do our best to help you.
 buttons: 
   - text: Contact Us Now
-    url: /grav/heroku-php/contact
+    url: /contact
 ---
 
 ##[Happy Homes - Happy Clients.](../../contact)
