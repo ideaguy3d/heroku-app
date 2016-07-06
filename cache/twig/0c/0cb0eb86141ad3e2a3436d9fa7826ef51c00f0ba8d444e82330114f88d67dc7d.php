@@ -41,34 +41,36 @@ class __TwigTemplate_a9251a5f121663b49350fc5853ac12f2e5cc70aec11fa843a7394a57f25
 
 
 <body>
+
 <div id=\"preloader\">
     <div id=\"status\">
         <img src=\"";
-        // line 38
+        // line 39
         echo (isset($context["theme_url"]) ? $context["theme_url"] : null);
         echo "/images/preloader.gif\" height=\"64\" width=\"64\" alt=\"\">
     </div>
 </div>
 
 ";
-        // line 42
+        // line 43
         $this->displayBlock('header', $context, $blocks);
-        // line 45
-        echo "
-";
         // line 46
+        echo "
+";
+        // line 47
         $this->displayBlock('body', $context, $blocks);
-        // line 49
-        echo "
-";
         // line 50
-        $this->displayBlock('footer', $context, $blocks);
-        // line 53
         echo "
 ";
+        // line 51
+        $this->displayBlock('footer', $context, $blocks);
         // line 54
+        echo "
+<!-- JavaScript -->
+";
+        // line 56
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 66
+        // line 67
         echo $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "js", array(), "method");
         echo "
 </body>
@@ -141,18 +143,18 @@ class __TwigTemplate_a9251a5f121663b49350fc5853ac12f2e5cc70aec11fa843a7394a57f25
         echo "        ";
     }
 
-    // line 42
+    // line 43
     public function block_header($context, array $blocks = array())
     {
-        // line 43
+        // line 44
         echo "    ";
-        $this->loadTemplate("partials/header.html.twig", "partials/base.html.twig", 43)->display($context);
+        $this->loadTemplate("partials/header.html.twig", "partials/base.html.twig", 44)->display($context);
     }
 
-    // line 46
+    // line 47
     public function block_body($context, array $blocks = array())
     {
-        // line 47
+        // line 48
         echo "    ";
         $this->displayBlock('content', $context, $blocks);
     }
@@ -161,47 +163,44 @@ class __TwigTemplate_a9251a5f121663b49350fc5853ac12f2e5cc70aec11fa843a7394a57f25
     {
     }
 
-    // line 50
+    // line 51
     public function block_footer($context, array $blocks = array())
     {
-        // line 51
+        // line 52
         echo "    ";
-        $this->loadTemplate("partials/footer.html.twig", "partials/base.html.twig", 51)->display($context);
+        $this->loadTemplate("partials/footer.html.twig", "partials/base.html.twig", 52)->display($context);
     }
 
-    // line 54
+    // line 56
     public function block_javascripts($context, array $blocks = array())
     {
-        // line 55
-        echo "    ";
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "add", array(0 => "jquery", 1 => 101), "method");
-        // line 56
-        echo "    ";
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/jquery-migrate-1.2.1.min.js"), "method");
         // line 57
         echo "    ";
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/jquery.flexslider.js"), "method");
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "add", array(0 => "jquery", 1 => 101), "method");
         // line 58
         echo "    ";
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/waypoints.js"), "method");
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/jquery-migrate-1.2.1.min.js"), "method");
         // line 59
         echo "    ";
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/jquery.fittext.js"), "method");
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/jquery.flexslider.js"), "method");
         // line 60
         echo "    ";
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/jquery.fitvids.js"), "method");
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/waypoints.js"), "method");
         // line 61
         echo "    ";
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/imagelightbox.js"), "method");
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/jquery.fittext.js"), "method");
         // line 62
         echo "    ";
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/jquery.prettyPhoto.js"), "method");
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/jquery.fitvids.js"), "method");
         // line 63
         echo "    ";
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/main.js"), "method");
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/imagelightbox.js"), "method");
         // line 64
-        echo "
-";
+        echo "    ";
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/jquery.prettyPhoto.js"), "method");
+        // line 65
+        echo "    ";
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/main.js"), "method");
     }
 
     public function getTemplateName()
@@ -216,7 +215,7 @@ class __TwigTemplate_a9251a5f121663b49350fc5853ac12f2e5cc70aec11fa843a7394a57f25
 
     public function getDebugInfo()
     {
-        return array (  203 => 64,  200 => 63,  197 => 62,  194 => 61,  191 => 60,  188 => 59,  185 => 58,  182 => 57,  179 => 56,  176 => 55,  173 => 54,  168 => 51,  165 => 50,  156 => 47,  153 => 46,  148 => 43,  145 => 42,  141 => 28,  138 => 27,  135 => 26,  132 => 25,  129 => 24,  126 => 23,  123 => 22,  117 => 30,  112 => 29,  110 => 22,  105 => 20,  102 => 19,  100 => 18,  95 => 16,  89 => 15,  87 => 14,  83 => 12,  80 => 11,  72 => 66,  70 => 54,  67 => 53,  65 => 50,  62 => 49,  60 => 46,  57 => 45,  55 => 42,  48 => 38,  40 => 32,  38 => 11,  26 => 1,);
+        return array (  202 => 65,  199 => 64,  196 => 63,  193 => 62,  190 => 61,  187 => 60,  184 => 59,  181 => 58,  178 => 57,  175 => 56,  170 => 52,  167 => 51,  158 => 48,  155 => 47,  150 => 44,  147 => 43,  143 => 28,  140 => 27,  137 => 26,  134 => 25,  131 => 24,  128 => 23,  125 => 22,  119 => 30,  114 => 29,  112 => 22,  107 => 20,  104 => 19,  102 => 18,  97 => 16,  91 => 15,  89 => 14,  85 => 12,  82 => 11,  74 => 67,  72 => 56,  68 => 54,  66 => 51,  63 => 50,  61 => 47,  58 => 46,  56 => 43,  49 => 39,  40 => 32,  38 => 11,  26 => 1,);
     }
 }
 /* <!DOCTYPE html>*/
@@ -254,6 +253,7 @@ class __TwigTemplate_a9251a5f121663b49350fc5853ac12f2e5cc70aec11fa843a7394a57f25
 /* */
 /* */
 /* <body>*/
+/* */
 /* <div id="preloader">*/
 /*     <div id="status">*/
 /*         <img src="{{ theme_url }}/images/preloader.gif" height="64" width="64" alt="">*/
@@ -272,6 +272,7 @@ class __TwigTemplate_a9251a5f121663b49350fc5853ac12f2e5cc70aec11fa843a7394a57f25
 /*     {% include 'partials/footer.html.twig' %}*/
 /* {% endblock %}*/
 /* */
+/* <!-- JavaScript -->*/
 /* {% block javascripts %}*/
 /*     {% do assets.add('jquery',101) %}*/
 /*     {% do assets.addJs('theme://js/jquery-migrate-1.2.1.min.js') %}*/
@@ -282,7 +283,6 @@ class __TwigTemplate_a9251a5f121663b49350fc5853ac12f2e5cc70aec11fa843a7394a57f25
 /*     {% do assets.addJs('theme://js/imagelightbox.js') %}*/
 /*     {% do assets.addJs('theme://js/jquery.prettyPhoto.js') %}*/
 /*     {% do assets.addJs('theme://js/main.js') %}*/
-/* */
 /* {% endblock %}*/
 /* {{ assets.js() }}*/
 /* </body>*/

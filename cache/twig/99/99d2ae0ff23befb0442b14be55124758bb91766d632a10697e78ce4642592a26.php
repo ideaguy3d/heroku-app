@@ -16,7 +16,7 @@ class __TwigTemplate_5ceea3686f586089f8979bbd725391869d555e92068a55abcfb8659fedf
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        $this->loadTemplate("blog.html.twig", "blog.html.twig", 1, "1034062444")->display($context);
+        $this->loadTemplate("blog.html.twig", "blog.html.twig", 1, "1416829045")->display($context);
         // line 37
         echo "
 
@@ -41,7 +41,7 @@ class __TwigTemplate_5ceea3686f586089f8979bbd725391869d555e92068a55abcfb8659fedf
 
 
 /* blog.html.twig */
-class __TwigTemplate_5ceea3686f586089f8979bbd725391869d555e92068a55abcfb8659fedf1189a_1034062444 extends Twig_Template
+class __TwigTemplate_5ceea3686f586089f8979bbd725391869d555e92068a55abcfb8659fedf1189a_1416829045 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -105,7 +105,7 @@ class __TwigTemplate_5ceea3686f586089f8979bbd725391869d555e92068a55abcfb8659fedf
         }
         // line 19
         echo "
-\t\t<div class=\"content-wrapper blog-content-list grid pure-g\">
+\t\t<div class=\"content-wrapper blog-content-list grid pure-g container\">
 \t\t\t<div id=\"listing\" class=\"block pure-u-2-3\">
 \t\t\t\t";
         // line 22
@@ -199,7 +199,7 @@ class __TwigTemplate_5ceea3686f586089f8979bbd725391869d555e92068a55abcfb8659fedf
 /* 				{% include 'partials/breadcrumbs.html.twig' %}*/
 /* 			{% endif %}*/
 /* */
-/* 		<div class="content-wrapper blog-content-list grid pure-g">*/
+/* 		<div class="content-wrapper blog-content-list grid pure-g container">*/
 /* 			<div id="listing" class="block pure-u-2-3">*/
 /* 				{% for child in collection %}*/
 /* 			        {% include 'partials/blog_item.html.twig' with {'blog':page, 'page':child, 'truncate':true} %}*/

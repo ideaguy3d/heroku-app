@@ -33,6 +33,7 @@
 
 
 <body>
+
 <div id="preloader">
     <div id="status">
         <img src="{{ theme_url }}/images/preloader.gif" height="64" width="64" alt="">
@@ -51,6 +52,7 @@
     {% include 'partials/footer.html.twig' %}
 {% endblock %}
 
+<!-- JavaScript -->
 {% block javascripts %}
     {% do assets.add('jquery',101) %}
     {% do assets.addJs('theme://js/jquery-migrate-1.2.1.min.js') %}
@@ -61,7 +63,6 @@
     {% do assets.addJs('theme://js/imagelightbox.js') %}
     {% do assets.addJs('theme://js/jquery.prettyPhoto.js') %}
     {% do assets.addJs('theme://js/main.js') %}
-
 {% endblock %}
 {{ assets.js() }}
 </body>
