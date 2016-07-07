@@ -1,10 +1,14 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1467619812,
-    'checksum' => '3943bdbf05daf97477a913bd74946102',
+    'timestamp' => 1467849590,
+    'checksum' => 'f27eefb35d69a4a6204ff466baae50ce',
     'files' => [
         'user/config' => [
+            'plugins/form' => [
+                'file' => 'user/config/plugins/form.yaml',
+                'modified' => 1467846900
+            ],
             'plugins/simple_form' => [
                 'file' => 'user/config/plugins/simple_form.yaml',
                 'modified' => 1466936772
@@ -15,11 +19,11 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1467286812
+                'modified' => 1467848230
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1467619808
+                'modified' => 1467848287
             ]
         ],
         'system/config' => [
@@ -41,9 +45,17 @@ return [
             ]
         ],
         'user/plugins' => [
+            'plugins/email' => [
+                'file' => 'user/plugins/email/email.yaml',
+                'modified' => 1467849576
+            ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
                 'modified' => 1466936773
+            ],
+            'plugins/form' => [
+                'file' => 'user/plugins/form/form.yaml',
+                'modified' => 1467846900
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/problems.yaml',
@@ -53,10 +65,42 @@ return [
     ],
     'data' => [
         'plugins' => [
+            'email' => [
+                'enabled' => true,
+                'from' => 'javascript.uiux@gmail.com',
+                'from_name' => 'Julius Alvarado',
+                'to' => 'javascript.uiux@gmail.com',
+                'to_name' => 'Julius Alvarado',
+                'mailer' => [
+                    'engine' => 'mail',
+                    'smtp' => [
+                        'server' => 'localhost',
+                        'port' => 25,
+                        'encryption' => 'none',
+                        'user' => '',
+                        'password' => ''
+                    ],
+                    'sendmail' => [
+                        'bin' => '/usr/sbin/sendmail'
+                    ]
+                ],
+                'content_type' => 'text/html',
+                'debug' => false
+            ],
             'error' => [
                 'enabled' => true,
                 'routes' => [
                     404 => '/error'
+                ]
+            ],
+            'form' => [
+                'enabled' => true,
+                'files' => [
+                    'multiple' => false,
+                    'destination' => '@self',
+                    'accept' => [
+                        0 => 'image/*'
+                    ]
                 ]
             ],
             'problems' => [
@@ -326,7 +370,7 @@ return [
                 1 => 'tag'
             ],
             'metadata' => [
-                'description' => 'Real Estate business template version 0.0.1'
+                'description' => 'Real Estate business template'
             ],
             'summary' => [
                 'enabled' => true,

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/grav/heroku-php/user/config/site.yaml',
-    'modified' => 1467286812,
+    'modified' => 1467848230,
     'data' => [
         'title' => 'Reno Real Estate Team',
         'author' => [
@@ -10,7 +10,7 @@ return [
             'email' => 'javascript.uiux@gmail.com'
         ],
         'metadata' => [
-            'description' => 'Real Estate business template version 0.0.1'
+            'description' => 'Real Estate business template'
         ],
         'email' => 'javascript.uiux@gmail.com',
         'description' => 'A real estate business template website built by Julius Alvarado w/The Grav CMS',

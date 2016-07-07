@@ -1,0 +1,11 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+
+    <section id="styles" style="padding: 90px 70px; background: #fff;">
+        {{ page.content }}
+        {% include "forms/form.html.twig" %}
+    </section>
+
+    <small>We will never share you information</small>
+{% endblock %}
