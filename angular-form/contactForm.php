@@ -13,9 +13,11 @@ $subject = 'julius augustus maximus...';
 $count = 0;
 $count++;
 
-if(isset($_POST['c_name']) && isset($_POST['c_email']) && isset($_POST['c_message'])){
-    $name    = $_POST['c_name'];
-    $from    = $_POST['c_email'];
+log("just counted"); 
+
+if (isset($_POST['c_name']) && isset($_POST['c_email']) && isset($_POST['c_message'])) {
+    $name = $_POST['c_name'];
+    $from = $_POST['c_email'];
     $message = $_POST['c_message'];
 
     if (mail($to, $subject, $message, $from)) {
@@ -24,12 +26,12 @@ if(isset($_POST['c_name']) && isset($_POST['c_email']) && isset($_POST['c_messag
             'sendstatus' => 1
         );
         echo json_encode($result);
-    }
-    else {
+    } else {
         $result = array(
-            'message' => 'Sorry, something is wrong, count is '.$count,
+            'message' => 'Sorry, something is wrong, count is ' . $count,
             'sendstatus' => 1
         );
         echo json_encode($result);
     }
 }
+?>

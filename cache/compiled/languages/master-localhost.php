@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledLanguages',
-    'timestamp' => 1467848244,
-    'checksum' => 'cc253f1b60f16ad7e910aa154c32d03b',
+    'timestamp' => 1467938304,
+    'checksum' => '7ee12755f33d2efde9d822ed49aaf620',
     'files' => [
         'system/languages' => [
             'cs' => [
@@ -87,10 +87,6 @@ return [
             ]
         ],
         'user/plugins' => [
-            'plugins/email' => [
-                'file' => 'user/plugins/email/languages.yaml',
-                'modified' => 1467847076
-            ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/languages.yaml',
                 'modified' => 1467846900
@@ -99,10 +95,6 @@ return [
     ],
     'data' => [
         'en' => [
-            'PLUGIN_EMAIL' => [
-                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Please configure a \'to\' address in the Email Plugin settings, or in the form',
-                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Please configure a \'from\' address in the Email Plugin settings, or in the form'
-            ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Form not validated. One or more required fields are missing.',
                 'NONCE_NOT_VALIDATED' => 'Oops there was a problem, please check your input and submit the form again.',
@@ -262,39 +254,95 @@ Path: `%2$s`
                 6 => 'Sunday'
             ]
         ],
-        'ro' => [
-            'PLUGIN_EMAIL' => [
-                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Vă rugam setați o adresă \'către\' în setările modulului Email sau în formular',
-                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Vă rugam setați o adresă \'de la\' în setările modulului Email sau în formular'
+        'es' => [
+            'PLUGIN_FORM' => [
+                'NOT_VALIDATED' => 'Falló la validación del formulario. Uno o más campos obligatorios no fueron capturados.',
+                'NONCE_NOT_VALIDATED' => 'Oops, hay un problema, por favor revice la información capturada e intente enviar el formulario otra vez.'
+            ],
+            'INFLECTOR_UNCOUNTABLE' => [
+                0 => 'equipo',
+                1 => 'información',
+                3 => 'dinero',
+                5 => 'series',
+                6 => 'pescado',
+                7 => 'oveja'
+            ],
+            'INFLECTOR_IRREGULAR' => [
+                'man' => 'hombres',
+                'child' => 'niños',
+                'sex' => 'sexos'
+            ],
+            'INFLECTOR_ORDINALS' => [
+                'first' => 'ro',
+                'second' => 'do',
+                'third' => 'ro'
+            ],
+            'NICETIME' => [
+                'NO_DATE_PROVIDED' => 'No se proporcionó fecha',
+                'BAD_DATE' => 'Fecha erronea',
+                'AGO' => 'antes',
+                'FROM_NOW' => 'desde ahora',
+                'SECOND' => 'segundo',
+                'MINUTE' => 'minuto',
+                'HOUR' => 'hora',
+                'DAY' => 'día',
+                'WEEK' => 'semana',
+                'MONTH' => 'mes',
+                'YEAR' => 'año',
+                'DECADE' => 'década',
+                'SEC' => 'seg',
+                'MIN' => 'min',
+                'HR' => 'h',
+                'WK' => 'sem',
+                'MO' => 'mes',
+                'YR' => 'año',
+                'DEC' => 'dec',
+                'SECOND_PLURAL' => 'segundos',
+                'MINUTE_PLURAL' => 'minutos',
+                'HOUR_PLURAL' => 'horas',
+                'DAY_PLURAL' => 'días',
+                'WEEK_PLURAL' => 'semanas',
+                'MONTH_PLURAL' => 'meses',
+                'YEAR_PLURAL' => 'años',
+                'DECADE_PLURAL' => 'décadas',
+                'SEC_PLURAL' => 'segs',
+                'MIN_PLURAL' => 'mins',
+                'HR_PLURAL' => 'hs',
+                'WK_PLURAL' => 'sem',
+                'MO_PLURAL' => 'mes',
+                'YR_PLURAL' => 'años',
+                'DEC_PLURAL' => 'décadas'
+            ],
+            'FORM' => [
+                'VALIDATION_FAIL' => '<b>Falló la validación. </b>',
+                'INVALID_INPUT' => 'Dato inválido en: ',
+                'MISSING_REQUIRED_FIELD' => 'Falta el campo requerido: '
             ],
             'MONTHS_OF_THE_YEAR' => [
-                0 => 'Ianuarie',
-                1 => 'Februarie',
-                2 => 'Martie',
-                3 => 'Aprilue',
-                4 => 'Mai',
-                5 => 'Iunie',
-                6 => 'Iulie',
-                8 => 'Septembrie',
-                9 => 'Octombrie',
-                10 => 'Noiembrie',
-                11 => 'Decembrie'
+                0 => 'Enero',
+                1 => 'Febrero',
+                2 => 'Marzo',
+                3 => 'Abril',
+                4 => 'Mayo',
+                5 => 'Junio',
+                6 => 'Julio',
+                7 => 'Agosto',
+                8 => 'Septiembre',
+                9 => 'Octubre',
+                10 => 'Noviembre',
+                11 => 'Diciembre'
             ],
             'DAYS_OF_THE_WEEK' => [
-                0 => 'Luni',
-                1 => 'Marti',
-                2 => 'Miercuri',
-                3 => 'Joi',
-                4 => 'Vineri',
-                5 => 'Sâmbătă',
-                6 => 'Duminică'
+                0 => 'Lunes',
+                1 => 'Martes',
+                2 => 'Miércoles',
+                3 => 'Jueves',
+                4 => 'Viernes',
+                5 => 'Sábado',
+                6 => 'Domingo'
             ]
         ],
         'fr' => [
-            'PLUGIN_EMAIL' => [
-                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Veuillez configurer une adresse de \'destinataire\' dans les paramètres du Plugin ou dans le formulaire.',
-                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Veuillez configurer une adresse \'d\'expéditeur\' dans les paramètres du Plugin ou dans le formulaire.'
-            ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Formulaire non validé. Un ou plusieurs champs obligatoires sont manquants.',
                 'NONCE_NOT_VALIDATED' => 'Oups, un problème est survenu. Veuillez vérifier votre saisie et soumettre à nouveau le formulaire.',
@@ -452,255 +500,6 @@ Path: `%2$s`
                 4 => 'Vendredi',
                 5 => 'Samedi',
                 6 => 'Dimanche'
-            ]
-        ],
-        'de' => [
-            'PLUGIN_EMAIL' => [
-                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Bitte konfigurieren sie eine \'An\' (\'to\') Adresse in den Email-Plugin-Einstellungen oder im Formular.',
-                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Bitte konfigurieren sie eine \'Von\' (\'from\') Adresse in den Email-Plugin-Einstellungen oder im Formular.'
-            ],
-            'FRONTMATTER_ERROR_PAGE' => '---
-title: %1$s
----
-# Fehler: Frontmatter enthält Fehler
-
-Pfad: `%2$s`
-
-**%3$s **
-
-```
-%4$s
-```
-',
-            'INFLECTOR_UNCOUNTABLE' => [
-                1 => 'Informationen',
-                2 => 'Reis',
-                3 => 'Geld'
-            ],
-            'INFLECTOR_IRREGULAR' => [
-                'person' => 'Personen',
-                'man' => 'Menschen',
-                'child' => 'Kinder',
-                'sex' => 'Geschlecht',
-                'move' => 'Züge'
-            ],
-            'NICETIME' => [
-                'NO_DATE_PROVIDED' => 'Keine Daten vorhanden',
-                'BAD_DATE' => 'Falsches Datum',
-                'AGO' => 'her',
-                'FROM_NOW' => 'ab jetzt',
-                'SECOND' => 'Sekunde',
-                'MINUTE' => 'Minute',
-                'HOUR' => 'Stunde',
-                'DAY' => 'Tag',
-                'WEEK' => 'Woche',
-                'MONTH' => 'Monat',
-                'YEAR' => 'Jahr',
-                'DECADE' => 'Dekade',
-                'SEC' => 'sek',
-                'MIN' => 'Min',
-                'HR' => 'std',
-                'WK' => 'wo',
-                'YR' => 'yh',
-                'DEC' => 'Jz',
-                'SECOND_PLURAL' => 'Sekunden',
-                'MINUTE_PLURAL' => 'Minuten',
-                'HOUR_PLURAL' => 'Stunden',
-                'DAY_PLURAL' => 'Tage',
-                'WEEK_PLURAL' => 'Wochen',
-                'MONTH_PLURAL' => 'Monate',
-                'YEAR_PLURAL' => 'Jahre',
-                'DECADE_PLURAL' => 'Dekaden',
-                'SEC_PLURAL' => 'Sekunden',
-                'MIN_PLURAL' => 'Minuten',
-                'HR_PLURAL' => 'Stunden',
-                'WK_PLURAL' => 'Wochen',
-                'MO_PLURAL' => 'Monate',
-                'YR_PLURAL' => 'Jahre',
-                'DEC_PLURAL' => 'Dekaden'
-            ],
-            'FORM' => [
-                'VALIDATION_FAIL' => '<b>Überprüfung fehlgeschlagen:</b>',
-                'INVALID_INPUT' => 'Ungültige Eingabe in',
-                'MISSING_REQUIRED_FIELD' => 'Erforderliches Feld fehlt:'
-            ],
-            'MONTHS_OF_THE_YEAR' => [
-                0 => 'Januar',
-                1 => 'Februar',
-                2 => 'März',
-                3 => 'April',
-                4 => 'Mai',
-                5 => 'Juni',
-                6 => 'Juli',
-                7 => 'August',
-                8 => 'Semptember',
-                9 => 'Oktober',
-                10 => 'November',
-                11 => 'Dezember'
-            ],
-            'DAYS_OF_THE_WEEK' => [
-                0 => 'Montag',
-                1 => 'Dienstag',
-                2 => 'Mittwoch',
-                3 => 'Donnerstag',
-                4 => 'Freitag',
-                5 => 'Samstag',
-                6 => 'Sonntag'
-            ]
-        ],
-        'it' => [
-            'PLUGIN_EMAIL' => [
-                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Per favore, configura l\'indirizzo di destinazione (\'to\') nella configurazione del Plugin Email, oppure direttamente nella form.',
-                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Per favore, configura l\'indirizzo di provenienza (\'from\') nella configurazione del Plugin Email, oppure direttamente nella form'
-            ],
-            'PLUGIN_FORM' => [
-                'NOT_VALIDATED' => 'Il Form risulta invalido. Uno o più campi risultano omessi.',
-                'NONCE_NOT_VALIDATED' => 'Oops è stato riscontrato un errore, si prega di ricontrollare i dati inseriti e provare di nuovo.',
-                'FILES' => 'Invio dei Files',
-                'ALLOW_MULTIPLE' => 'Consenti più di un file',
-                'ALLOW_MULTIPLE_HELP' => 'Permette la selezione di più di un file per l\'upload',
-                'DESTINATION' => 'Destinazione',
-                'DESTINATION_HELP' => 'La destinazione dove i files vengono uploadati',
-                'ACCEPT' => 'Tipi di MIME Concessi',
-                'ACCEPT_HELP' => 'Una lista di tipi di MIME che sono permessi per l\'upload',
-                'ERROR_VALIDATING_CAPTCHA' => 'Errore durante la validazione del Captcha'
-            ],
-            'NICETIME' => [
-                'NO_DATE_PROVIDED' => 'Nessuna data fornita',
-                'BAD_DATE' => 'Data errata',
-                'AGO' => 'fa',
-                'FROM_NOW' => 'da adesso',
-                'SECOND' => 'secondo',
-                'MINUTE' => 'minuto',
-                'HOUR' => 'ora',
-                'DAY' => 'giorno',
-                'WEEK' => 'settimana',
-                'MONTH' => 'mese',
-                'YEAR' => 'anno',
-                'SECOND_PLURAL' => 'secondi',
-                'MINUTE_PLURAL' => 'minuti',
-                'HOUR_PLURAL' => 'ore',
-                'DAY_PLURAL' => 'giorni',
-                'WEEK_PLURAL' => 'settimane',
-                'MONTH_PLURAL' => 'mesi',
-                'YEAR_PLURAL' => 'anni',
-                'DECADE_PLURAL' => 'decadi'
-            ],
-            'FORM' => [
-                'VALIDATION_FAIL' => '<b>Validazione fallita:</b>',
-                'INVALID_INPUT' => 'Input invalido in',
-                'MISSING_REQUIRED_FIELD' => 'Campo richiesto mancante:'
-            ],
-            'MONTHS_OF_THE_YEAR' => [
-                0 => 'Gennaio',
-                1 => 'Febbraio',
-                2 => 'Marzo',
-                3 => 'Aprile',
-                4 => 'Maggio',
-                5 => 'Giugno',
-                6 => 'Luglio',
-                7 => 'Agosto',
-                8 => 'Settembre',
-                9 => 'Ottobre',
-                10 => 'Novembre',
-                11 => 'Dicembre'
-            ],
-            'DAYS_OF_THE_WEEK' => [
-                0 => 'Lunedi',
-                1 => 'Martedi',
-                2 => 'Mercoledi',
-                3 => 'Giovedi',
-                4 => 'Venerdi',
-                5 => 'Sabato',
-                6 => 'Domenica'
-            ]
-        ],
-        'es' => [
-            'PLUGIN_FORM' => [
-                'NOT_VALIDATED' => 'Falló la validación del formulario. Uno o más campos obligatorios no fueron capturados.',
-                'NONCE_NOT_VALIDATED' => 'Oops, hay un problema, por favor revice la información capturada e intente enviar el formulario otra vez.'
-            ],
-            'INFLECTOR_UNCOUNTABLE' => [
-                0 => 'equipo',
-                1 => 'información',
-                3 => 'dinero',
-                5 => 'series',
-                6 => 'pescado',
-                7 => 'oveja'
-            ],
-            'INFLECTOR_IRREGULAR' => [
-                'man' => 'hombres',
-                'child' => 'niños',
-                'sex' => 'sexos'
-            ],
-            'INFLECTOR_ORDINALS' => [
-                'first' => 'ro',
-                'second' => 'do',
-                'third' => 'ro'
-            ],
-            'NICETIME' => [
-                'NO_DATE_PROVIDED' => 'No se proporcionó fecha',
-                'BAD_DATE' => 'Fecha erronea',
-                'AGO' => 'antes',
-                'FROM_NOW' => 'desde ahora',
-                'SECOND' => 'segundo',
-                'MINUTE' => 'minuto',
-                'HOUR' => 'hora',
-                'DAY' => 'día',
-                'WEEK' => 'semana',
-                'MONTH' => 'mes',
-                'YEAR' => 'año',
-                'DECADE' => 'década',
-                'SEC' => 'seg',
-                'MIN' => 'min',
-                'HR' => 'h',
-                'WK' => 'sem',
-                'MO' => 'mes',
-                'YR' => 'año',
-                'DEC' => 'dec',
-                'SECOND_PLURAL' => 'segundos',
-                'MINUTE_PLURAL' => 'minutos',
-                'HOUR_PLURAL' => 'horas',
-                'DAY_PLURAL' => 'días',
-                'WEEK_PLURAL' => 'semanas',
-                'MONTH_PLURAL' => 'meses',
-                'YEAR_PLURAL' => 'años',
-                'DECADE_PLURAL' => 'décadas',
-                'SEC_PLURAL' => 'segs',
-                'MIN_PLURAL' => 'mins',
-                'HR_PLURAL' => 'hs',
-                'WK_PLURAL' => 'sem',
-                'MO_PLURAL' => 'mes',
-                'YR_PLURAL' => 'años',
-                'DEC_PLURAL' => 'décadas'
-            ],
-            'FORM' => [
-                'VALIDATION_FAIL' => '<b>Falló la validación. </b>',
-                'INVALID_INPUT' => 'Dato inválido en: ',
-                'MISSING_REQUIRED_FIELD' => 'Falta el campo requerido: '
-            ],
-            'MONTHS_OF_THE_YEAR' => [
-                0 => 'Enero',
-                1 => 'Febrero',
-                2 => 'Marzo',
-                3 => 'Abril',
-                4 => 'Mayo',
-                5 => 'Junio',
-                6 => 'Julio',
-                7 => 'Agosto',
-                8 => 'Septiembre',
-                9 => 'Octubre',
-                10 => 'Noviembre',
-                11 => 'Diciembre'
-            ],
-            'DAYS_OF_THE_WEEK' => [
-                0 => 'Lunes',
-                1 => 'Martes',
-                2 => 'Miércoles',
-                3 => 'Jueves',
-                4 => 'Viernes',
-                5 => 'Sábado',
-                6 => 'Domingo'
             ]
         ],
         'hr' => [
@@ -878,6 +677,69 @@ Elérési út: `%2$s`
                 'MISSING_REQUIRED_FIELD' => 'Ez a kötelező mező nincs kitöltve:'
             ]
         ],
+        'it' => [
+            'PLUGIN_FORM' => [
+                'NOT_VALIDATED' => 'Il Form risulta invalido. Uno o più campi risultano omessi.',
+                'NONCE_NOT_VALIDATED' => 'Oops è stato riscontrato un errore, si prega di ricontrollare i dati inseriti e provare di nuovo.',
+                'FILES' => 'Invio dei Files',
+                'ALLOW_MULTIPLE' => 'Consenti più di un file',
+                'ALLOW_MULTIPLE_HELP' => 'Permette la selezione di più di un file per l\'upload',
+                'DESTINATION' => 'Destinazione',
+                'DESTINATION_HELP' => 'La destinazione dove i files vengono uploadati',
+                'ACCEPT' => 'Tipi di MIME Concessi',
+                'ACCEPT_HELP' => 'Una lista di tipi di MIME che sono permessi per l\'upload',
+                'ERROR_VALIDATING_CAPTCHA' => 'Errore durante la validazione del Captcha'
+            ],
+            'NICETIME' => [
+                'NO_DATE_PROVIDED' => 'Nessuna data fornita',
+                'BAD_DATE' => 'Data errata',
+                'AGO' => 'fa',
+                'FROM_NOW' => 'da adesso',
+                'SECOND' => 'secondo',
+                'MINUTE' => 'minuto',
+                'HOUR' => 'ora',
+                'DAY' => 'giorno',
+                'WEEK' => 'settimana',
+                'MONTH' => 'mese',
+                'YEAR' => 'anno',
+                'SECOND_PLURAL' => 'secondi',
+                'MINUTE_PLURAL' => 'minuti',
+                'HOUR_PLURAL' => 'ore',
+                'DAY_PLURAL' => 'giorni',
+                'WEEK_PLURAL' => 'settimane',
+                'MONTH_PLURAL' => 'mesi',
+                'YEAR_PLURAL' => 'anni',
+                'DECADE_PLURAL' => 'decadi'
+            ],
+            'FORM' => [
+                'VALIDATION_FAIL' => '<b>Validazione fallita:</b>',
+                'INVALID_INPUT' => 'Input invalido in',
+                'MISSING_REQUIRED_FIELD' => 'Campo richiesto mancante:'
+            ],
+            'MONTHS_OF_THE_YEAR' => [
+                0 => 'Gennaio',
+                1 => 'Febbraio',
+                2 => 'Marzo',
+                3 => 'Aprile',
+                4 => 'Maggio',
+                5 => 'Giugno',
+                6 => 'Luglio',
+                7 => 'Agosto',
+                8 => 'Settembre',
+                9 => 'Ottobre',
+                10 => 'Novembre',
+                11 => 'Dicembre'
+            ],
+            'DAYS_OF_THE_WEEK' => [
+                0 => 'Lunedi',
+                1 => 'Martedi',
+                2 => 'Mercoledi',
+                3 => 'Giovedi',
+                4 => 'Venerdi',
+                5 => 'Sabato',
+                6 => 'Domenica'
+            ]
+        ],
         'cs' => [
             'INFLECTOR_UNCOUNTABLE' => [
                 0 => 'vybavení',
@@ -964,6 +826,96 @@ Elérési út: `%2$s`
                 4 => 'Pátek',
                 5 => 'Sobota',
                 6 => 'Neděle'
+            ]
+        ],
+        'de' => [
+            'FRONTMATTER_ERROR_PAGE' => '---
+title: %1$s
+---
+# Fehler: Frontmatter enthält Fehler
+
+Pfad: `%2$s`
+
+**%3$s **
+
+```
+%4$s
+```
+',
+            'INFLECTOR_UNCOUNTABLE' => [
+                1 => 'Informationen',
+                2 => 'Reis',
+                3 => 'Geld'
+            ],
+            'INFLECTOR_IRREGULAR' => [
+                'person' => 'Personen',
+                'man' => 'Menschen',
+                'child' => 'Kinder',
+                'sex' => 'Geschlecht',
+                'move' => 'Züge'
+            ],
+            'NICETIME' => [
+                'NO_DATE_PROVIDED' => 'Keine Daten vorhanden',
+                'BAD_DATE' => 'Falsches Datum',
+                'AGO' => 'her',
+                'FROM_NOW' => 'ab jetzt',
+                'SECOND' => 'Sekunde',
+                'MINUTE' => 'Minute',
+                'HOUR' => 'Stunde',
+                'DAY' => 'Tag',
+                'WEEK' => 'Woche',
+                'MONTH' => 'Monat',
+                'YEAR' => 'Jahr',
+                'DECADE' => 'Dekade',
+                'SEC' => 'sek',
+                'MIN' => 'Min',
+                'HR' => 'std',
+                'WK' => 'wo',
+                'YR' => 'yh',
+                'DEC' => 'Jz',
+                'SECOND_PLURAL' => 'Sekunden',
+                'MINUTE_PLURAL' => 'Minuten',
+                'HOUR_PLURAL' => 'Stunden',
+                'DAY_PLURAL' => 'Tage',
+                'WEEK_PLURAL' => 'Wochen',
+                'MONTH_PLURAL' => 'Monate',
+                'YEAR_PLURAL' => 'Jahre',
+                'DECADE_PLURAL' => 'Dekaden',
+                'SEC_PLURAL' => 'Sekunden',
+                'MIN_PLURAL' => 'Minuten',
+                'HR_PLURAL' => 'Stunden',
+                'WK_PLURAL' => 'Wochen',
+                'MO_PLURAL' => 'Monate',
+                'YR_PLURAL' => 'Jahre',
+                'DEC_PLURAL' => 'Dekaden'
+            ],
+            'FORM' => [
+                'VALIDATION_FAIL' => '<b>Überprüfung fehlgeschlagen:</b>',
+                'INVALID_INPUT' => 'Ungültige Eingabe in',
+                'MISSING_REQUIRED_FIELD' => 'Erforderliches Feld fehlt:'
+            ],
+            'MONTHS_OF_THE_YEAR' => [
+                0 => 'Januar',
+                1 => 'Februar',
+                2 => 'März',
+                3 => 'April',
+                4 => 'Mai',
+                5 => 'Juni',
+                6 => 'Juli',
+                7 => 'August',
+                8 => 'Semptember',
+                9 => 'Oktober',
+                10 => 'November',
+                11 => 'Dezember'
+            ],
+            'DAYS_OF_THE_WEEK' => [
+                0 => 'Montag',
+                1 => 'Dienstag',
+                2 => 'Mittwoch',
+                3 => 'Donnerstag',
+                4 => 'Freitag',
+                5 => 'Samstag',
+                6 => 'Sonntag'
             ]
         ],
         'el' => [
@@ -1488,6 +1440,30 @@ Path: `%2$s`
                 6 => 'Domingo'
             ]
         ],
+        'ro' => [
+            'MONTHS_OF_THE_YEAR' => [
+                0 => 'Ianuarie',
+                1 => 'Februarie',
+                2 => 'Martie',
+                3 => 'Aprilue',
+                4 => 'Mai',
+                5 => 'Iunie',
+                6 => 'Iulie',
+                8 => 'Septembrie',
+                9 => 'Octombrie',
+                10 => 'Noiembrie',
+                11 => 'Decembrie'
+            ],
+            'DAYS_OF_THE_WEEK' => [
+                0 => 'Luni',
+                1 => 'Marti',
+                2 => 'Miercuri',
+                3 => 'Joi',
+                4 => 'Vineri',
+                5 => 'Sâmbătă',
+                6 => 'Duminică'
+            ]
+        ],
         'ru' => [
             'INFLECTOR_IRREGULAR' => [
                 'person' => 'люди',
@@ -1604,6 +1580,6 @@ Path: `%2$s`
                 'DEC_PLURAL' => 'onyl'
             ]
         ],
-        'checksum' => 'cc253f1b60f16ad7e910aa154c32d03b'
+        'checksum' => '7ee12755f33d2efde9d822ed49aaf620'
     ]
 ];

@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1467849590,
-    'checksum' => 'f27eefb35d69a4a6204ff466baae50ce',
+    'timestamp' => 1467860199,
+    'checksum' => '8a41804bec35b45da9432e54e25aa504',
     'files' => [
         'user/config' => [
             'plugins/form' => [
@@ -45,10 +45,6 @@ return [
             ]
         ],
         'user/plugins' => [
-            'plugins/email' => [
-                'file' => 'user/plugins/email/email.yaml',
-                'modified' => 1467849576
-            ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
                 'modified' => 1466936773
@@ -65,28 +61,6 @@ return [
     ],
     'data' => [
         'plugins' => [
-            'email' => [
-                'enabled' => true,
-                'from' => 'javascript.uiux@gmail.com',
-                'from_name' => 'Julius Alvarado',
-                'to' => 'javascript.uiux@gmail.com',
-                'to_name' => 'Julius Alvarado',
-                'mailer' => [
-                    'engine' => 'mail',
-                    'smtp' => [
-                        'server' => 'localhost',
-                        'port' => 25,
-                        'encryption' => 'none',
-                        'user' => '',
-                        'password' => ''
-                    ],
-                    'sendmail' => [
-                        'bin' => '/usr/sbin/sendmail'
-                    ]
-                ],
-                'content_type' => 'text/html',
-                'debug' => false
-            ],
             'error' => [
                 'enabled' => true,
                 'routes' => [

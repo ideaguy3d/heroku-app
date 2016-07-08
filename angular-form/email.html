@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reno Real Estate Email</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
+          integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+            integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+            crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+<div class="container">
+    <!-- Image Background, very top of the page -->
+    <div class="image-parallax" style="color:#ffffff;">
+        <div class="slide-content light">
+            <div class="align-center">
+                <div class="top-logo">
+                    <img src="user/themes/imgs/h7.jpg" alt="logo">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row section-head">
+        <div class="twelve columns">
+            <h1>Contact <i> Reno Real Estate Team.</i></h1>
+            <p>Let's get started with finding, or selling, that next perfect home for you.</p>
+        </div>
+    </div>
+</div>
+
+<!-- ======== Email via PHP script ======== -->
+<div class="container" style="text-align: center;">
+    <div class="col-md-6">
+        <form id="contact-form" role="form">
+            <div class="mc-field-group">
+                <label class="sr-only" for="c_name">Name</label>
+                <input type="text" id="c_name" class="form-control" name="c_name" placeholder="Name">
+            </div>
+
+            <div class="mc-field-group">
+                <label class="sr-only" for="c_email">Email address</label>
+                <input type="email" id="c_email" class="form-control" name="c_email" placeholder="E-mail">
+            </div>
+
+            <div class="mc-field-group">
+                <textarea class="form-control" id="c_message" name="c_message" rows="7"
+                          placeholder="Your message"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-bg">
+                <i class="fa fa-arrow-circle-right icon-before"></i> Send it
+            </button>
+        </form>
+    </div>
+
+    <div class="ajax-response"></div>
+</div>
+<hr>
+<!-- This script will invoke the PHP email script -->
+<script type="text/javascript">
+    (function ($) {
+        $("#contact-form").submit(function (e) {
+            e.preventDefault();
+
+            var c_name = $("#c_name").val();
+            var c_email = $("#c_email").val();
+            var c_message = $("#c_message ").val();
+            var responseMessage = $('.ajax-response');
+
+            if (( c_name == "" || c_email == "" || c_message == "")) {
+                responseMessage.fadeIn(500);
+                responseMessage.html('<i class="fa fa-warning"></i> Check all fields.');
+            }
+
+            else {
+                $.ajax({
+                    type: "POST",
+                    url: "contactForm.php",
+                    dataType: 'json',
+                    data: {
+                        c_email: c_email,
+                        c_name: c_name,
+                        c_message: c_message
+                    },
+                    beforeSend: function (result) {
+                        $('#contact-form button').empty();
+                        $('#contact-form button').append('<i class="fa fa-cog fa-spin"></i> Wait...');
+                    },
+                    success: function (result) {
+                        if (result.sendstatus == 1) {
+                            responseMessage.html(result.message);
+                            responseMessage.fadeIn(500);
+                            $('#contact-form').fadeOut(500);
+                        } else {
+                            $('#contact-form button').empty();
+                            $('#contact-form button').append('<i class="fa fa-retweet"></i> Try again.');
+                            responseMessage.html(result.message);
+                            responseMessage.fadeIn(1000);
+                        }
+                    }
+                });
+            }
+
+            return false;
+
+        });
+    })(jQuery);
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html ng-app="form">
+<head>
+    <title>AngularJS Booking Form Demo</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+
+<body>
+<div class="booking-form container">
+    <section ng-controller="PanelController as panel">
+        <ul class="nav nav-pills">
+            <li ng-class="{ active: panel.isSelected(1)}">
+                <a href ng-click="panel.selectTab(1)">Buyer Form</a>
+            </li>
+            <li ng-class="{ active: panel.isSelected(2)}">
+                <a href ng-click="panel.selectTab(2)">Seller Form</a>
+            </li>
+        </ul>
+
+        <div class="panel standard_form" ng-show="panel.isSelected(1)">
+            <div ng-hide="message">
+                <h4>Standard Form</h4>
+                <p>Complete and sumbit the form below to make a booking.</p>
+                <p>Use the <b>Custom Form</b> for a more bespke booking.</p>
+                <p><span class="required">*</span> required fields</p>
+            </div>
+
+            <form name="mealForm" ng-controller="FormController as form" method="post"
+                  ng-submit="mealForm.$valid && handleFormSubmit(booking)" novalidate ng-hide="message">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="firstName">First Name<span class="required"> *</span></label>
+                            <input ng-model="booking.firstName" type="text" class="form-control" id="firstName"
+                                   name="firstName" placeholder="First Name" required>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="lastName">Last Name<span class="required"> *</span></label>
+                            <input ng-model="booking.lastName" type="text" class="form-control" id="lastName"
+                                   name="lastName" placeholder="Last Name" required>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="email">Email<span class="required"> *</span></label>
+                            <input ng-model="booking.email" type="email" class="form-control" id="email"
+                                   name="email" placeholder="Email" required>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="telephone">Phone Number</label>
+                            <input ng-model="booking.telephone" type="text" class="form-control" id="telephone"
+                                   name="telephone" placeholder="Telephone">
+                        </div>
+                    </div>
+                </div><!-- /.row -->
+
+                <button type="submit" value="Submit" class="btn btn-default btn-info">Submit</button>
+            </form>
+        </div><!-- /.panel -->
+
+
+
+
+        <!-- Success message -->
+        <div ng-show="message">
+            <p>Form submitted succesfully! Thank you for contacting us. We aim to respond to all enquiries within
+                48hrs. </p>
+        </div>
+
+
+        <!-- Seller Tab start -->
+        <div class="panel custom_form" ng-show="panel.isSelected(2)">
+            <h4>Seller Form</h4>
+            <p>Hello please contact us <a href="#" title="">here</a>.</p>
+        </div>
+    </section>
+</div>
+
+<!-- JavaScript Libraries -->
+<script src="js/angular.min.js"></script>
+<script src="js/ui-bootstrap-tpls-0.12.1.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
