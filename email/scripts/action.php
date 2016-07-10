@@ -128,7 +128,7 @@ mail($email_to, $email_subject, $email_message, $headers);
 //else output the following json obj
 else {
 ?>
-<h1>Ello Ello (: </h1>
+    
 {
     "success": false
 } 

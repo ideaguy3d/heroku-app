@@ -13,7 +13,6 @@ $subject = 'julius augustus maximus...';
 $count = 0;
 $count++;
 
-log("just counted"); 
 
 if (isset($_POST['c_name']) && isset($_POST['c_email']) && isset($_POST['c_message'])) {
     $name = $_POST['c_name'];

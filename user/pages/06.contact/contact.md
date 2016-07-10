@@ -1,5 +1,5 @@
 ---
-redirect: 'angular-form'
+redirect: 'email'
 ---
 
 

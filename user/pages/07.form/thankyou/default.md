@@ -1,1 +1,1 @@
-#Thanks for contacting us ^_^
+#Thanks for contacting us :)

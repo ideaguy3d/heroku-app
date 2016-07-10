@@ -2,3 +2,4 @@ vendor/
 .env
 grav-blog
 .idea
+bower_components
