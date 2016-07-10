@@ -8,16 +8,15 @@
 
 // Contact
 $to = 'nbr1ninrsan@gmail.com';
-$subject = 'julius augustus maximus...';
-
-$count = 0;
-$count++;
+$subject = 'julius augustus maximus';
 
 
 if (isset($_POST['c_name']) && isset($_POST['c_email']) && isset($_POST['c_message'])) {
     $name = $_POST['c_name'];
     $from = $_POST['c_email'];
     $message = $_POST['c_message'];
+    
+    $formInfo = "name = ".$name.", from = ".$from.", message = ".$message; 
 
     if (mail($to, $subject, $message, $from)) {
         $result = array(
@@ -27,7 +26,7 @@ if (isset($_POST['c_name']) && isset($_POST['c_email']) && isset($_POST['c_messa
         echo json_encode($result);
     } else {
         $result = array(
-            'message' => 'Sorry, something is wrong, count is ' . $count,
+            'message' => 'Something is wrong, form info = ' . $$formInfo,
             'sendstatus' => 1
         );
         echo json_encode($result);
