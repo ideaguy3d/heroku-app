@@ -26,7 +26,7 @@ if (isset($_POST['c_name']) && isset($_POST['c_email']) && isset($_POST['c_messa
         echo json_encode($result);
     } else {
         $result = array(
-            'message' => 'Something is wrong, form info = ' . $$formInfo,
+            'message' => 'Something is wrong, form info = ' . $formInfo,
             'sendstatus' => 1
         );
         echo json_encode($result);
