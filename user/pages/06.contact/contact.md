@@ -1,5 +1,5 @@
 ---
-
+redirect: 'http://site3.julius3d.com'
 ---
 
 

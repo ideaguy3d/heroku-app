@@ -1316,3 +1316,6 @@
 [2016-07-11 15:38:59] grav.WARNING: Plugin 'simple_form' enabled but not found! Try clearing cache with `bin/grav clear-cache` [] []
 [2016-07-11 15:39:05] grav.WARNING: Plugin 'simple_form' enabled but not found! Try clearing cache with `bin/grav clear-cache` [] []
 [2016-07-11 15:39:06] grav.WARNING: Plugin 'simple_form' enabled but not found! Try clearing cache with `bin/grav clear-cache` [] []
+[2016-07-11 15:40:33] grav.WARNING: Plugin 'simple_form' enabled but not found! Try clearing cache with `bin/grav clear-cache` [] []
+[2016-07-11 15:40:34] grav.WARNING: Plugin 'simple_form' enabled but not found! Try clearing cache with `bin/grav clear-cache` [] []
+[2016-07-11 15:58:13] grav.WARNING: Plugin 'simple_form' enabled but not found! Try clearing cache with `bin/grav clear-cache` [] []
