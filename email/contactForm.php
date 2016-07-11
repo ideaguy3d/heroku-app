@@ -18,6 +18,7 @@ if (isset($_POST['c_name']) && isset($_POST['c_email']) && isset($_POST['c_messa
     
     $formInfo = "name = ".$name.", from = ".$from.", message = ".$message; 
 
+    //this is where the script breaks
     if (mail($to, $subject, $message, $from)) {
         $result = array(
             'message' => 'Thanks for contacting julius augustus maximus',
@@ -26,10 +27,9 @@ if (isset($_POST['c_name']) && isset($_POST['c_email']) && isset($_POST['c_messa
         echo json_encode($result);
     } else {
         $result = array(
-            'message' => 'Something is wrong, form info = ' . $formInfo,
+            'message' => 'Something is wrong, form info is: ' . $formInfo,
             'sendstatus' => 1
         );
         echo json_encode($result);
     }
 }
-?>

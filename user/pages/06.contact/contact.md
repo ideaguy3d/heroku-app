@@ -1,5 +1,5 @@
 ---
-redirect: 'email'
+
 ---
 
 
