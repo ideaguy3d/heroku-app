@@ -4,7 +4,7 @@ showcase_image: landing-image.png
 buttons:
     - text: About Us
       url: /about
-      class: button learn-more smoothscroll
+      class: button learn-more
     - text:  Why Reno
       url: '#pricing'
       class: button learn-more smoothscroll

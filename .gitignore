@@ -4,6 +4,7 @@ grav-blog
 .idea
 bower_components
 cache/compiled
+cache/twig
 composer.json
 composer.lock
 plugins

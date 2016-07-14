@@ -3,7 +3,7 @@ title: Neighborhoods
 ---
 
 <!-- Image Background Parallax, very top of the page -->
-<div class="image-parallax" style="color:#ffffff; background-image: url('user2/themes/mytheme/images/stockton1.jpg')">
+<div class="image-parallax" style="color:#ffffff; background-image: url('user/themes/woo/images/stockton1.jpg')">
     <div class="slide-content light">
         <div class="align-center">
             <!-- /Top Logo -->
