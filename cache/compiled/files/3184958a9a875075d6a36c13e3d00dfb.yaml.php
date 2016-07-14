@@ -2,13 +2,13 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/grav/heroku-php/user/plugins/email/email.yaml',
-    'modified' => 1467849576,
+    'modified' => 1468453009,
     'data' => [
         'enabled' => true,
-        'from' => 'javascript.uiux@gmail.com',
-        'from_name' => 'Julius Alvarado',
-        'to' => 'javascript.uiux@gmail.com',
-        'to_name' => 'Julius Alvarado',
+        'from' => NULL,
+        'from_name' => NULL,
+        'to' => NULL,
+        'to_name' => NULL,
         'mailer' => [
             'engine' => 'mail',
             'smtp' => [

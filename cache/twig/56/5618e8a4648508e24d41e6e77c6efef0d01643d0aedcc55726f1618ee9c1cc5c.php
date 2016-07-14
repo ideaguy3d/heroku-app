@@ -29,14 +29,11 @@ class __TwigTemplate_61ce02d511230f27580a2ee2a83a45bffb35984a72c2bf737a2e2641b09
     {
         // line 4
         echo "    <section>
-        <iframe src=\"http://site3.julius3d.com\" frameborder=\"0\" width=\"100%\" height=\"900px\"></iframe>
-
         ";
-        // line 7
+        // line 5
         echo (isset($context["content"]) ? $context["content"] : null);
         echo "
     </section>
-
 ";
     }
 
@@ -52,17 +49,14 @@ class __TwigTemplate_61ce02d511230f27580a2ee2a83a45bffb35984a72c2bf737a2e2641b09
 
     public function getDebugInfo()
     {
-        return array (  36 => 7,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  34 => 5,  31 => 4,  28 => 3,  11 => 1,);
     }
 }
 /* {% extends 'partials/base.html.twig' %}*/
 /* */
 /* {% block content %}*/
 /*     <section>*/
-/*         <iframe src="http://site3.julius3d.com" frameborder="0" width="100%" height="900px"></iframe>*/
-/* */
 /*         {{ content }}*/
 /*     </section>*/
-/* */
 /* {% endblock %}*/
 /* */

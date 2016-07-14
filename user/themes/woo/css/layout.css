@@ -540,13 +540,13 @@ ul.features li:nth-child(even) {
 
 #call-to-action .header-col h1:before {
     font-family: 'FontAwesome';
-    content: "\f093";
+    content: "\f003";
     padding-right: 18px;
-    padding-top: 6px;
+    /*padding-top: 6px;*/
     font-size: 72px;
     line-height: 72px;
     text-align: center;
-    float: right;
+    float: left;
     color: #EBEEEE;
 }
 

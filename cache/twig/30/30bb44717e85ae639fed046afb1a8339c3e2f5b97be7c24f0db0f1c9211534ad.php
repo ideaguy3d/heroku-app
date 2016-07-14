@@ -19,10 +19,7 @@ class __TwigTemplate_0c883e6ef444988964aa0a254f94a1a38268f087c11d3be4dd144b35f2e
         echo "<section id=\"call-to-action\">
     <div class=\"row\">
         <div class=\"two columns header-col\">
-            <h1><span>";
-        // line 4
-        echo $this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "title", array());
-        echo "</span></h1>
+            <h1>Homes. Done. Right.</h1>
         </div>
         <div class=\"seven columns\">
             ";
@@ -65,13 +62,13 @@ class __TwigTemplate_0c883e6ef444988964aa0a254f94a1a38268f087c11d3be4dd144b35f2e
 
     public function getDebugInfo()
     {
-        return array (  51 => 13,  40 => 11,  36 => 10,  30 => 7,  24 => 4,  19 => 1,);
+        return array (  48 => 13,  37 => 11,  33 => 10,  27 => 7,  19 => 1,);
     }
 }
 /* <section id="call-to-action">*/
 /*     <div class="row">*/
 /*         <div class="two columns header-col">*/
-/*             <h1><span>{{ page.header.title }}</span></h1>*/
+/*             <h1>Homes. Done. Right.</h1>*/
 /*         </div>*/
 /*         <div class="seven columns">*/
 /*             {{ content }}*/

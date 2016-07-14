@@ -15,6 +15,8 @@ title: Team
 </div>
 #The Team
 ***
+
+![Johanne Reno]()
 ##Johanne Reno
 Johanne was born in Montreal, Canada and is bi-lingual in French and English. Her love of real estate goes back to her youth in Canada. On the weekends, she would often take her younger brother along with her to visit model homes and show him the properties, walking him through each room and explaining the features.
 

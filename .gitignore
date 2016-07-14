@@ -3,3 +3,7 @@ vendor/
 grav-blog
 .idea
 bower_components
+cache/compiled
+composer.json
+composer.lock
+plugins

@@ -1,6 +1,6 @@
 ---
 title: Reno Real Estate Team
-menu: About
+visible: false
 onpage_menu: false
 body_class: index
 header_class: alt
@@ -12,12 +12,10 @@ content:
         dir: asc
         custom:
             - _showcase
-            - _features
+            - _pitch
             - _pricing
             - _callout
-            - _screenshots
             - _testimonials
-            - _subscribe
 ---
 
 

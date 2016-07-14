@@ -296,7 +296,7 @@ h1 {
     font-size: 1.25rem; } }
 
 h1 {
-  text-align: center;
+  /*text-align: center;*/
   letter-spacing: -3px; }
 
 h2 {
@@ -439,7 +439,7 @@ textarea, input[type="email"], input[type="number"], input[type="password"], inp
   display: inline-block; }
 
 form .buttons {
-  text-align: center; }
+  margin-top: 24px; }
 form input {
   font-weight: 400; }
 

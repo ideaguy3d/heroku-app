@@ -1,66 +1,96 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1467860199,
-    'checksum' => '8a41804bec35b45da9432e54e25aa504',
+    'timestamp' => 1468462611,
+    'checksum' => 'f1a05bd365b960aa7c1488897229bf3c',
     'files' => [
         'user/config' => [
+            'plugins/email' => [
+                'file' => 'user/config/plugins/email.yaml',
+                'modified' => 1468462318
+            ],
             'plugins/form' => [
                 'file' => 'user/config/plugins/form.yaml',
-                'modified' => 1467846900
+                'modified' => 1468453009
             ],
             'plugins/simple_form' => [
                 'file' => 'user/config/plugins/simple_form.yaml',
-                'modified' => 1466936772
+                'modified' => 1468453009
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
-                'modified' => 1466937133
+                'modified' => 1468453009
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1467848230
+                'modified' => 1468453009
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1467848287
+                'modified' => 1468453009
             ]
         ],
         'system/config' => [
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1465973890
+                'modified' => 1468453006
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1465973890
+                'modified' => 1468453006
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1465973890
+                'modified' => 1468453006
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1465973890
+                'modified' => 1468453006
             ]
         ],
         'user/plugins' => [
+            'plugins/email' => [
+                'file' => 'user/plugins/email/email.yaml',
+                'modified' => 1468453009
+            ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
-                'modified' => 1466936773
+                'modified' => 1468453006
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1467846900
+                'modified' => 1468453009
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/problems.yaml',
-                'modified' => 1466936773
+                'modified' => 1468453006
             ]
         ]
     ],
     'data' => [
         'plugins' => [
+            'email' => [
+                'enabled' => true,
+                'from' => 'java@julius3d.com',
+                'from_name' => 'Julius Alvarado',
+                'to' => NULL,
+                'to_name' => NULL,
+                'mailer' => [
+                    'engine' => 'mail',
+                    'smtp' => [
+                        'server' => 'localhost',
+                        'port' => 25,
+                        'encryption' => 'none',
+                        'user' => '',
+                        'password' => ''
+                    ],
+                    'sendmail' => [
+                        'bin' => '/usr/sbin/sendmail'
+                    ]
+                ],
+                'content_type' => 'text/html',
+                'debug' => false
+            ],
             'error' => [
                 'enabled' => true,
                 'routes' => [

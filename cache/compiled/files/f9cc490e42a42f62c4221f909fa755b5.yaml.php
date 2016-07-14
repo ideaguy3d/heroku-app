@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/grav/heroku-php/user/plugins/email/languages.yaml',
-    'modified' => 1467847076,
+    'modified' => 1468453009,
     'data' => [
         'en' => [
             'PLUGIN_EMAIL' => [

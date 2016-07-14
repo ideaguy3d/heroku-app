@@ -2,11 +2,11 @@
 title: Let us find your Dream Home.
 showcase_image: landing-image.png
 buttons:
-    - text: Buyer
-      url: '/grav/'
+    - text: About Us
+      url: /about
       class: button learn-more smoothscroll
-    - text:  Seller
-      url: '#subscribe'
+    - text:  Why Reno
+      url: '#pricing'
       class: button learn-more smoothscroll
 ---
 

@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "name": "getgrav/grav",
     "type": "project",
     "description": "Modern, Crazy Fast, Ridiculously Easy and Amazingly Powerful Flat-File CMS",
@@ -51,4 +52,16 @@
             "dev-develop": "1.x-dev"
         }
     }
+=======
+  "require" : {
+    "silex/silex": "~1.3",
+    "monolog/monolog": "~1.7",
+    "twig/twig": "^1.19",
+    "symfony/twig-bridge": "^2.7",
+    "predis/predis": "^1.0"
+  },
+  "require-dev": {
+    "heroku/heroku-buildpack-php": "*"
+  }
+>>>>>>> origin/master
 }

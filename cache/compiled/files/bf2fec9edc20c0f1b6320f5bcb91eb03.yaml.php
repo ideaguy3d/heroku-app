@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/grav/heroku-php/user/plugins/error/blueprints.yaml',
-    'modified' => 1466936772,
+    'modified' => 1468453006,
     'data' => [
         'name' => 'Error',
         'version' => '1.4.1',
